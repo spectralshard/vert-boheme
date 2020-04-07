@@ -1,0 +1,31 @@
+title = "Collabo"
+url = "/collabo/:page?"
+layout = "default"
+meta_title = "Collabo"
+is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
+
+[portfolio myportfolio]
+category = "2"
+itemsPerPage = 9
+order = "asc"
+pageNumber = "{{ :page }}"
+selectedTag = "{{ :selected_tag }}"
+selectedCat = "{{ :selected_cat }}"
+catListPage = "portfolio/category"
+itemPage = "portfolio/item"
+tagListPage = "portfolio/tag"
+==
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h2 class="h2-responsive">
+                    <span class="underline_text">Collabo</span>
+                </h2>
+            </div>
+        </div>
+        {% component 'myportfolio' %}
+    </div>
+</section>

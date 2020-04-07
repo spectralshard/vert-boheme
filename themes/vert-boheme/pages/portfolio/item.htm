@@ -1,0 +1,22 @@
+title = "Portfolio Item"
+url = "/portfolio/item/:item_slug"
+layout = "default"
+is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
+
+[item]
+itemSlug = "{{ :item_slug }}"
+==
+<?php
+function onEnd()
+{
+setlocale(LC_TIME, 'fr', 'fr_FR', 'fr_FR.ISO8859-1');
+$this->page->title = $this['item']->item->title;
+$this->page->meta_title = $this['item']->item->title;
+$this->page->meta_description = 'Portfolio d\'Amélie Cauchon Simard - fleuriste à Laval';
+$this['image_url'] = $this['item']->item->images->first()->path;
+}
+?>
+==
+{% component 'item' %}

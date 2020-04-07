@@ -1,5 +1,39 @@
-title = "Home"
+title = "Acceuil"
 url = "/"
 layout = "default"
+meta_title = "Accueil | Vert Bohème"
+meta_description = "SIte Web de la fleuriste Vert Bohème."
 is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
+
+[slider home-slider]
+autoplay = 1
+loop = 1
+bootstrap = 0
 ==
+<section class="py-2 text-center">
+        {% component 'home-slider' %}
+</section>
+<section class="py-5 text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="h2-responsive">
+                    <span class="underline_text">Mes dernières créations</span>
+                </h2>
+            </div>
+        </div>
+        {% partial 'home/lastportfolio' %}
+        <div class="row py-3">
+            <div class="col text-center">
+                <a href="{{ 'mes-projets'|page }}"
+                   class="btn btn-primary text-white">Voir tous mes projets</a>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="paralax-mf bg-image py-5">
+    <div class="overlay-mf"></div>
+        {% partial 'home/about' %}
+</div>

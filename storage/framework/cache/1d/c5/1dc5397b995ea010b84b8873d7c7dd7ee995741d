@@ -1,0 +1,80 @@
+1586271400a:1:{s:10:"footer.htm";a:7:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:1532:"description = "Footer"
+
+[simpleContact mysimpleContact]
+nameTitle = "Votre nom et prénom"
+emailTitle = "Votre courriel"
+phoneTitle = "Téléphone"
+subjectTitle = "Sujet"
+messageTitle = "Message"
+buttonText = "Envoyer"
+displayPhone = 0
+==
+<section id="contact" class="py-5 craftbg">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-12 col-lg-8">
+                <h2 class="h2-responsive text-center">
+                    <span class="underline_text">Contact</span>
+                </h2>
+                <p>{% content "contactus-text" %}</p>
+               {% component 'mysimpleContact' %}
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <section class="sub-footer craftbg py-3 text-center border-secondary border-top">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                Me suivre :
+                <a href="{{ this.theme.facebook_url }}" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="{{ this.theme.instagram_url }} " target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="footer bg-secondary  py-3 text-white text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    © Vert Bohème 2020
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>";s:5:"mtime";i:1585947492;s:6:"markup";s:1282:"<section id="contact" class="py-5 craftbg">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-12 col-lg-8">
+                <h2 class="h2-responsive text-center">
+                    <span class="underline_text">Contact</span>
+                </h2>
+                <p>{% content "contactus-text" %}</p>
+               {% component 'mysimpleContact' %}
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <section class="sub-footer craftbg py-3 text-center border-secondary border-top">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                Me suivre :
+                <a href="{{ this.theme.facebook_url }}" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="{{ this.theme.instagram_url }} " target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="footer bg-secondary  py-3 text-white text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    © Vert Bohème 2020
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>";s:4:"code";N;s:11:"description";s:6:"Footer";s:29:"simpleContact mysimpleContact";a:7:{s:9:"nameTitle";s:20:"Votre nom et prénom";s:10:"emailTitle";s:14:"Votre courriel";s:10:"phoneTitle";s:11:"Téléphone";s:12:"subjectTitle";s:5:"Sujet";s:12:"messageTitle";s:7:"Message";s:10:"buttonText";s:7:"Envoyer";s:12:"displayPhone";s:1:"0";}}}

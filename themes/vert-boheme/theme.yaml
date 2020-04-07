@@ -3,3 +3,6 @@ description: 'Main theme'
 author: Alexcorp.ca
 homepage: alexcorp.ca
 code: ''
+form: theme_fields.yaml
+require:
+    - RainLab.Blog

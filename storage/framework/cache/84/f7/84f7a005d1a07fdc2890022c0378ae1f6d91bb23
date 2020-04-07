@@ -1,0 +1,42 @@
+1586271399a:1:{s:12:"mariages.htm";a:13:{s:8:"fileName";s:12:"mariages.htm";s:7:"content";s:753:"title = "Mariages"
+url = "/mariages/:page?"
+layout = "default"
+meta_title = "Mariages"
+is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
+
+[portfolio myportfolio]
+category = 1
+itemsPerPage = 9
+order = "asc"
+pageNumber = "{{ :page }}"
+selectedTag = "{{ :selected_tag }}"
+selectedCat = "{{ :selected_cat }}"
+catListPage = "portfolio/category"
+itemPage = "portfolio/item"
+tagListPage = "portfolio/tag"
+==
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h2 class="h2-responsive">
+                    <span class="underline_text">Mariages</span>
+                </h2>
+            </div>
+        </div>
+        {% component 'myportfolio' %}
+    </div>
+</section>";s:5:"mtime";i:1585928256;s:6:"markup";s:342:"<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h2 class="h2-responsive">
+                    <span class="underline_text">Mariages</span>
+                </h2>
+            </div>
+        </div>
+        {% component 'myportfolio' %}
+    </div>
+</section>";s:4:"code";N;s:5:"title";s:8:"Mariages";s:3:"url";s:16:"/mariages/:page?";s:6:"layout";s:7:"default";s:10:"meta_title";s:8:"Mariages";s:9:"is_hidden";s:1:"0";s:11:"robot_index";s:5:"index";s:12:"robot_follow";s:6:"follow";s:21:"portfolio myportfolio";a:9:{s:8:"category";s:1:"1";s:12:"itemsPerPage";s:1:"9";s:5:"order";s:3:"asc";s:10:"pageNumber";s:11:"{{ :page }}";s:11:"selectedTag";s:19:"{{ :selected_tag }}";s:11:"selectedCat";s:19:"{{ :selected_cat }}";s:11:"catListPage";s:18:"portfolio/category";s:8:"itemPage";s:14:"portfolio/item";s:11:"tagListPage";s:13:"portfolio/tag";}}}

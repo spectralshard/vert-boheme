@@ -1,6 +1,14 @@
 /*
  General CSS tricks
 */
+body{
+  font-family: 'smalltypewritingregular';
+  font-weight: normal;;
+}
+main {
+  margin-top: 7rem;
+}
+
 ol, li {
   margin: 0;
   padding: 0;
@@ -10,7 +18,8 @@ ol, li {
   cursor: pointer;
 }
 
-.bold {
+strong {
+  font-family: 'smalltypewriting-mediumRg';
   font-weight: bold!important;
 }
 
@@ -140,4 +149,72 @@ a {
       }
     }
   }
+}
+
+.underline_text{
+  display: inline-block;
+  border-bottom: 1px solid;
+  margin-bottom: 1rem;
+}
+.craftbg{
+  background: url('../images/papier-craft-200x.jpg');
+  background-repeat: repeat;
+}
+.bg-tier {
+  background-color: $vertboheme-tier;
+}
+.paralax-mf {
+  position: relative;
+  padding: 8rem 0;
+}
+@include media-breakpoint-down(xs) {
+  .paralax-mf {
+    padding: 1rem 0;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .paralax-mf {
+    padding: 2rem 0;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .paralax-mf {
+    padding: 4rem 0;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .paralax-mf {
+    padding: 8rem 0;
+  }
+}
+
+.bg-image {
+  background: $white url('../images/bg-flower-about.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+.overlay-mf {
+  position: absolute;
+  background-color: $primary-color;
+  top: 0;
+  left: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+}
+.overlay-dark-mf {
+  position: absolute;
+  background-color: $secondary;
+  top: 0;
+  left: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
 }

@@ -210,7 +210,7 @@ return [
     |
     */
 
-    'enableAssetMinify' => null,
+    'enableAssetMinify' => false,
 
     /*
     |--------------------------------------------------------------------------
@@ -224,7 +224,7 @@ return [
     |
     */
 
-    'enableAssetDeepHashing' => null,
+    'enableAssetDeepHashing' => false,
 
     /*
     |--------------------------------------------------------------------------
@@ -367,7 +367,7 @@ return [
     |
     */
 
-    'enableSafeMode' => null,
+    'enableSafeMode' => false,
 
     /*
     |--------------------------------------------------------------------------

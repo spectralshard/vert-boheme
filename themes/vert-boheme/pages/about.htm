@@ -1,0 +1,45 @@
+title = "À propos"
+url = "/about"
+layout = "default"
+is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
+
+==
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 pb-5">
+                <img class="img-fluid mx-auto d-block"
+                     src="{{ 'assets/images/profil-picture.jpg'|theme }}"
+                     data-holder-rendered="true"
+                alt="Photo d'Amélie Cauchon-Simard">
+            </div>
+            <div class="col">
+                <h2 class="h2-responsive">
+                    <span class="underline_text">À propos de moi</span>
+                </h2>
+                <p>{% content "about" %}</p>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="paralax-mf bg-image py-5 text-center">
+    <div class="overlay-mf"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="h2-responsive">
+                    <span class="underline_text">Mes dernières créations</span>
+                </h2>
+            </div>
+        </div>
+        {% partial 'home/lastportfolio' %}
+            <div class="row py-3">
+                <div class="col text-center">
+                    <a href="{{ 'mes-projets'|page }}"
+                       class="btn btn-secondary text-white">Voir tous mes projets</a>
+                </div>
+            </div>
+    </div>
+</div>

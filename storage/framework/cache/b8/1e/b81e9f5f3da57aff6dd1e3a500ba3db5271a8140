@@ -1,0 +1,31 @@
+1586271400a:1:{s:14:"home/about.htm";a:5:{s:8:"fileName";s:14:"home/about.htm";s:7:"content";s:649:"<div class="container">
+    <div class="row pt-5">
+        <div class="col-xs-12 col-sm-6 col-lg-4 pb-5">
+                <img class="img-fluid mx-auto d-block"
+                     src="{{ 'assets/images/profil-picture.jpg'|theme }}"
+                     data-holder-rendered="true">
+        </div>
+        <div class="col">
+            <h2 class="h2-responsive">
+                <span class="underline_text">À propos de moi</span>
+            </h2>
+            <p>{% content "home/about" %}</p>
+            <a href="{{ 'about'|page }}" class="btn btn-outline-secondary" title="En savoir plus!">En savoir plus!</a>
+        </div>
+    </div>
+</div>";s:5:"mtime";i:1586194518;s:6:"markup";s:649:"<div class="container">
+    <div class="row pt-5">
+        <div class="col-xs-12 col-sm-6 col-lg-4 pb-5">
+                <img class="img-fluid mx-auto d-block"
+                     src="{{ 'assets/images/profil-picture.jpg'|theme }}"
+                     data-holder-rendered="true">
+        </div>
+        <div class="col">
+            <h2 class="h2-responsive">
+                <span class="underline_text">À propos de moi</span>
+            </h2>
+            <p>{% content "home/about" %}</p>
+            <a href="{{ 'about'|page }}" class="btn btn-outline-secondary" title="En savoir plus!">En savoir plus!</a>
+        </div>
+    </div>
+</div>";s:4:"code";N;}}

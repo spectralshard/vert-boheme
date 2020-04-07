@@ -1,2 +1,46 @@
 description = "Footer"
+
+[simpleContact mysimpleContact]
+nameTitle = "Votre nom et prénom"
+emailTitle = "Votre courriel"
+phoneTitle = "Téléphone"
+subjectTitle = "Sujet"
+messageTitle = "Message"
+buttonText = "Envoyer"
+displayPhone = 0
 ==
+<section id="contact" class="py-5 craftbg">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-12 col-lg-8">
+                <h2 class="h2-responsive text-center">
+                    <span class="underline_text">Contact</span>
+                </h2>
+                <p>{% content "contactus-text" %}</p>
+               {% component 'mysimpleContact' %}
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <section class="sub-footer craftbg py-3 text-center border-secondary border-top">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                Me suivre :
+                <a href="{{ this.theme.facebook_url }}" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="{{ this.theme.instagram_url }} " target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="footer bg-secondary  py-3 text-white text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    © Vert Bohème 2020
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
