@@ -1,4 +1,4 @@
-1586351033a:1:{s:23:"home-slider/default.htm";a:5:{s:8:"fileName";s:23:"home-slider/default.htm";s:7:"content";s:2808:"{% if slides %}
+1586353479a:1:{s:23:"home-slider/default.htm";a:5:{s:8:"fileName";s:23:"home-slider/default.htm";s:7:"content";s:2808:"{% if slides %}
 <!-- Start Hero Area -->
 <section class="section hero-area">
     <div class="hero-slider owl-carousel owl-controls-1">

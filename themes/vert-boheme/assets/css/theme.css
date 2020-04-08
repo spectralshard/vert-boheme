@@ -15703,6 +15703,7 @@ readers do not read off random characters that represent icons */
   font-display: auto;
   src: url("../webfonts/fa-brands-400.eot");
   src: url("../webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg");
+  font-display: swap;
 }
 .fab {
   font-family: "Font Awesome 5 Brands";
@@ -15719,6 +15720,7 @@ readers do not read off random characters that represent icons */
   font-display: auto;
   src: url("../webfonts/fa-solid-900.eot");
   src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg");
+  font-display: swap;
 }
 .fa,
 .fas {
@@ -15731,18 +15733,21 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: normal;
   src: local("Kimberlly Regular"), url("../webfonts/Kimberlly.woff") format("woff");
+  font-display: swap;
 }
 @font-face {
   font-family: "smalltypewritingregular";
   src: url("../webfonts/smalltypewriting-webfont.woff2") format("woff2"), url("../webfonts/smalltypewriting-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "smalltypewriting-mediumRg";
   src: url("../webfonts/smalltypewritingmedium-webfont.woff2") format("woff2"), url("../webfonts/smalltypewritingmedium-webfont.woff") format("woff");
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   select {

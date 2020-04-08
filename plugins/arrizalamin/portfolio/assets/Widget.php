@@ -92,13 +92,13 @@ class Widget extends FormWidgetBase
      */
     public function loadAssets()
     {
-        $this->addJs('js/tagbox.js');
+        $this->addJs('js/tagbox.min.js');
 
         if (isset($this->config->cssPath) && $this->config->cssPath)
             $this->addCss($this->config->cssPath);
 
         elseif (!isset($this->config->cssPath))
-            $this->addCss('css/tagbox.css');
+            $this->addCss('css/tagbox.min.css');
     }
 
     /**
