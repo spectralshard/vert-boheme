@@ -1,4 +1,4 @@
-1586271400a:1:{s:10:"navbar.htm";a:6:{s:8:"fileName";s:10:"navbar.htm";s:7:"content";s:2660:"description = "Navbar"
+1586351033a:1:{s:10:"navbar.htm";a:6:{s:8:"fileName";s:10:"navbar.htm";s:7:"content";s:2615:"description = "Navbar"
 ==
 <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
     <a class="navbar-brand mx-auto d-block d-md-none" href="{{ 'home'|page }}">
@@ -7,16 +7,17 @@
              alt="{{ this.theme.site_motto }}"
              class="img-fluid" style="width: 150px;">
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+    <div class="hamburger hamburger--spring d-flexmr-auto d-md-none float-right"  data-toggle="collapse" data-target="#navbarCollapse">
+        <div class="hamburger-box">
+            <div class="hamburger-inner"></div>
+        </div>
+    </div>
     <div class="container">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="nav navbar-nav">
                 <li class="nav-item px-2">
                     <a class="nav-link" href="{{ 'home'|page }}"
-                    title="Acceuil">Acceuil</a>
+                    title="Accueil">Accueil</a>
                 </li>
                 <li class="nav-item px-2">
                     <a class="nav-link" href="{{ 'about'|page }}"
@@ -40,7 +41,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="{{ 'mariages'|page }}" title="Mariage">Mariages</a>
-                        <!--<a class="dropdown-item" href="{{ 'collabo'|page }}" title="Collabo">Collabo</a>-->
+                        <a class="dropdown-item" href="{{ 'collabo'|page }}" title="Collabo">Collabo</a>
                     </div>
                 </li>
                 <li class="nav-item px-2">
@@ -49,23 +50,24 @@
             </ul>
         </div>
     </div>
-</nav>";s:5:"mtime";i:1586270797;s:6:"markup";s:2634:"<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+</nav>";s:5:"mtime";i:1586348190;s:6:"markup";s:2587:"<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
     <a class="navbar-brand mx-auto d-block d-md-none" href="{{ 'home'|page }}">
         <img src="{{ 'assets/images/vert-boheme-logo.svg'|theme }}"
              title="{{ this.theme.site_name }}"
              alt="{{ this.theme.site_motto }}"
              class="img-fluid" style="width: 150px;">
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+    <div class="hamburger hamburger--spring d-flexmr-auto d-md-none float-right"  data-toggle="collapse" data-target="#navbarCollapse">
+        <div class="hamburger-box">
+            <div class="hamburger-inner"></div>
+        </div>
+    </div>
     <div class="container">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="nav navbar-nav">
                 <li class="nav-item px-2">
                     <a class="nav-link" href="{{ 'home'|page }}"
-                    title="Acceuil">Acceuil</a>
+                    title="Accueil">Accueil</a>
                 </li>
                 <li class="nav-item px-2">
                     <a class="nav-link" href="{{ 'about'|page }}"
@@ -89,7 +91,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="{{ 'mariages'|page }}" title="Mariage">Mariages</a>
-                        <!--<a class="dropdown-item" href="{{ 'collabo'|page }}" title="Collabo">Collabo</a>-->
+                        <a class="dropdown-item" href="{{ 'collabo'|page }}" title="Collabo">Collabo</a>
                     </div>
                 </li>
                 <li class="nav-item px-2">

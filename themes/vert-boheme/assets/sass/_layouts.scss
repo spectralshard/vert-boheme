@@ -196,7 +196,42 @@ a {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
   background-position: center center;
+}
+@include media-breakpoint-down(xs) {
+  .bg-image {
+    background-attachment: scroll;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .bg-image {
+    background-attachment: scroll;
+  }
+}
+.bg-image-item {
+  background: $white url('../images/default-feature-image.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
+}
+@include media-breakpoint-down(xs) {
+  .bg-image-item {
+    background-attachment: scroll;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .bg-image-item {
+    background-attachment: scroll;
+  }
 }
 .overlay-mf {
   position: absolute;

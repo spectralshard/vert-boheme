@@ -133,33 +133,42 @@ class __TwigTemplate_50c57ea577ba7b1ac1d6e1d2f323f5a6dc07dd6c97ac336bc7e09dd1137
         // line 38
         echo "</head>
 <body>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-70359045-8\"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-70359045-8');
+</script>
 <header>
     ";
-        // line 41
+        // line 50
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("navbar"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 42
+        // line 51
         echo "</header>
 <main role=\"main\" id=\"page\">
     ";
-        // line 44
+        // line 53
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
-        // line 45
+        // line 54
         echo "</main>
 <footer>
     ";
-        // line 47
+        // line 56
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("footer"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 48
+        // line 57
         echo "</footer>
 ";
-        $_type = isset($context["type"]) ? $context["type"] : null;        $_message = isset($context["message"]) ? $context["message"] : null;        // line 49
+        $_type = isset($context["type"]) ? $context["type"] : null;        $_message = isset($context["message"]) ? $context["message"] : null;        // line 58
         foreach (Flash::getMessages() as $type => $messages) {
             foreach ($messages as $message) {
-                $context["type"] = $type;                $context["message"] = $message;                // line 50
+                $context["type"] = $type;                $context["message"] = $message;                // line 59
                 echo "<span id=\"flash\" data-type=\"";
                 echo twig_escape_filter($this->env, ($context["type"] ?? null), "html", null, true);
                 echo "\" data-message=\"";
@@ -168,13 +177,13 @@ class __TwigTemplate_50c57ea577ba7b1ac1d6e1d2f323f5a6dc07dd6c97ac336bc7e09dd1137
 ";
             }
         }
-        $context["type"] = $_type;        $context["message"] = $_message;        // line 52
+        $context["type"] = $_type;        $context["message"] = $_message;        // line 61
         echo "<script src=\"";
         echo $this->extensions['Cms\Twig\Extension']->themeFilter([0 => "assets/vendor/jquery/jquery-3.4.1.min.js", 1 => "assets/vendor/tether/dist/js/tether.min.js", 2 => "assets/vendor/bootstrap/js/bootstrap.min.js", 3 => "assets/js/main.js"]);
-        // line 57
+        // line 66
         echo "\"></script>
 ";
-        // line 58
+        // line 67
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         if ($_minify) {
             echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework.combined-min.js"></script>'.PHP_EOL;
@@ -185,10 +194,10 @@ class __TwigTemplate_50c57ea577ba7b1ac1d6e1d2f323f5a6dc07dd6c97ac336bc7e09dd1137
         }
         echo '<link rel="stylesheet" property="stylesheet" href="' . Request::getBasePath() .'/modules/system/assets/css/framework.extras'.($_minify ? '-min' : '').'.css">'.PHP_EOL;
         unset($_minify);
-        // line 59
+        // line 68
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
-        // line 60
+        // line 69
         echo "</body>";
     }
 
@@ -204,7 +213,7 @@ class __TwigTemplate_50c57ea577ba7b1ac1d6e1d2f323f5a6dc07dd6c97ac336bc7e09dd1137
 
     public function getDebugInfo()
     {
-        return array (  192 => 60,  189 => 59,  178 => 58,  175 => 57,  172 => 52,  163 => 50,  160 => 49,  157 => 48,  153 => 47,  149 => 45,  147 => 44,  143 => 42,  139 => 41,  134 => 38,  131 => 37,  128 => 36,  126 => 33,  122 => 32,  118 => 31,  114 => 30,  109 => 28,  105 => 27,  98 => 23,  94 => 22,  90 => 21,  85 => 20,  80 => 18,  75 => 17,  70 => 15,  65 => 14,  63 => 13,  59 => 12,  54 => 10,  50 => 9,  46 => 8,  37 => 1,);
+        return array (  201 => 69,  198 => 68,  187 => 67,  184 => 66,  181 => 61,  172 => 59,  169 => 58,  166 => 57,  162 => 56,  158 => 54,  156 => 53,  152 => 51,  148 => 50,  134 => 38,  131 => 37,  128 => 36,  126 => 33,  122 => 32,  118 => 31,  114 => 30,  109 => 28,  105 => 27,  98 => 23,  94 => 22,  90 => 21,  85 => 20,  80 => 18,  75 => 17,  70 => 15,  65 => 14,  63 => 13,  59 => 12,  54 => 10,  50 => 9,  46 => 8,  37 => 1,);
     }
 
     public function getSourceContext()

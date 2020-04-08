@@ -53,23 +53,24 @@ class __TwigTemplate_1425fbe590959153479569d86fbd4cda5aae480f57fe120d7549643a461
         echo "\"
              class=\"img-fluid\" style=\"width: 150px;\">
     </a>
-    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"
-            aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
-        <span class=\"navbar-toggler-icon\"></span>
-    </button>
+    <div class=\"hamburger hamburger--spring d-flexmr-auto d-md-none float-right\"  data-toggle=\"collapse\" data-target=\"#navbarCollapse\">
+        <div class=\"hamburger-box\">
+            <div class=\"hamburger-inner\"></div>
+        </div>
+    </div>
     <div class=\"container\">
-        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">
+        <div class=\"collapse navbar-collapse\" id=\"navbarCollapse\">
             <ul class=\"nav navbar-nav\">
                 <li class=\"nav-item px-2\">
                     <a class=\"nav-link\" href=\"";
-        // line 16
+        // line 17
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("home");
         echo "\"
-                    title=\"Acceuil\">Acceuil</a>
+                    title=\"Accueil\">Accueil</a>
                 </li>
                 <li class=\"nav-item px-2\">
                     <a class=\"nav-link\" href=\"";
-        // line 20
+        // line 21
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("about");
         echo "\"
                     title=\"À propos\">À propos</a>
@@ -78,20 +79,20 @@ class __TwigTemplate_1425fbe590959153479569d86fbd4cda5aae480f57fe120d7549643a461
             <ul class=\"nav navbar-nav mx-auto d-none d-sm-none d-md-block\">
                 <li class=\"nav-item\">
                     <a class=\"nav-link\" href=\"";
-        // line 26
+        // line 27
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("home");
         echo "\">
                         <img src=\"";
-        // line 27
+        // line 28
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/vert-boheme-logo.svg");
         echo "\"
                              title=\"";
-        // line 28
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 28), "site_name", [], "any", false, false, false, 28), "html", null, true);
+        // line 29
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 29), "site_name", [], "any", false, false, false, 29), "html", null, true);
         echo "\"
                              alt=\"";
-        // line 29
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 29), "site_motto", [], "any", false, false, false, 29), "html", null, true);
+        // line 30
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 30), "site_motto", [], "any", false, false, false, 30), "html", null, true);
         echo "\"
                              class=\"img-fluid\" style=\"width: 150px;\">
                     </a></li>
@@ -104,13 +105,13 @@ class __TwigTemplate_1425fbe590959153479569d86fbd4cda5aae480f57fe120d7549643a461
                     </a>
                     <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">
                         <a class=\"dropdown-item\" href=\"";
-        // line 40
+        // line 41
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("mariages");
         echo "\" title=\"Mariage\">Mariages</a>
-                        <!--<a class=\"dropdown-item\" href=\"";
-        // line 41
+                        <a class=\"dropdown-item\" href=\"";
+        // line 42
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("collabo");
-        echo "\" title=\"Collabo\">Collabo</a>-->
+        echo "\" title=\"Collabo\">Collabo</a>
                     </div>
                 </li>
                 <li class=\"nav-item px-2\">
@@ -134,7 +135,7 @@ class __TwigTemplate_1425fbe590959153479569d86fbd4cda5aae480f57fe120d7549643a461
 
     public function getDebugInfo()
     {
-        return array (  112 => 41,  108 => 40,  94 => 29,  90 => 28,  86 => 27,  82 => 26,  73 => 20,  66 => 16,  52 => 5,  48 => 4,  44 => 3,  40 => 2,  37 => 1,);
+        return array (  113 => 42,  109 => 41,  95 => 30,  91 => 29,  87 => 28,  83 => 27,  74 => 21,  67 => 17,  52 => 5,  48 => 4,  44 => 3,  40 => 2,  37 => 1,);
     }
 
     public function getSourceContext()

@@ -1,13 +1,5 @@
-1586267737a:1:{s:16:"item/default.htm";a:5:{s:8:"fileName";s:16:"item/default.htm";s:7:"content";s:2654:"{% set item = __SELF__.item %}
-{% if item.images|length > 0 %}
-{% set image = item.images.first %}
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=297141914583105&autoLogAppEvents=1"></script>
-<section class="paralax-mf"
-         style="background: url('{{ image.path }}');
-         background-repeat: no-repeat;
-         background-attachment: fixed;
-         background-size: cover;
-         background-position: center center;">
+1586349612a:1:{s:16:"item/default.htm";a:5:{s:8:"fileName";s:16:"item/default.htm";s:7:"content";s:1517:"{% set item = __SELF__.item %}
+<section class="paralax-mf bg-image-item">
     <div class="overlay-dark-mf"></div>
         <div class="container py-5 my-5">
             <div class="row py-5 my-5">
@@ -17,7 +9,6 @@
             </div>
         </div>
 </section>
-{% endif %}
 <div class="container py-5">
     <div class="row">
         <div class="col-xs-12 col-lg-8 pb-4">
@@ -27,22 +18,6 @@
             {% endfor %}
         </div>
         <div class="col-xs-12 col-lg-4">
-            <div class="card text-white bg-primary mb-4">
-                <div class="card-body">
-                    <p class="card-text">
-                        Catégorie : {{ item.category.name }}
-                    </p>
-                    <p class="card-text">
-                       Date : {{ item.created_at| strftime("%d %B %Y") }}
-                    </p>
-                    {% if item.url %}
-                    <p class="card-text">
-                        <a href="{{ item.url }}" class="btn btn-default" target="_blank">Voir le projet</a>
-                    </p>
-                    {% endif %}
-                    {% partial 'share' %}
-                </div>
-            </div>
             <div id="facebook-box" class="my-3">
                 <div class="fb-page" style="width:100%;max-width:290px" data-href="https://www.facebook.com/Vert-Boh&#xe8;me-1089002674613879/"
                      data-tabs="timeline" data-width="" data-height="" data-small-header="false"
@@ -55,16 +30,8 @@
         </div>
     </div>
 </div>
-";s:5:"mtime";i:1585946904;s:6:"markup";s:2653:"{% set item = __SELF__.item %}
-{% if item.images|length > 0 %}
-{% set image = item.images.first %}
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=297141914583105&autoLogAppEvents=1"></script>
-<section class="paralax-mf"
-         style="background: url('{{ image.path }}');
-         background-repeat: no-repeat;
-         background-attachment: fixed;
-         background-size: cover;
-         background-position: center center;">
+";s:5:"mtime";i:1586347901;s:6:"markup";s:1516:"{% set item = __SELF__.item %}
+<section class="paralax-mf bg-image-item">
     <div class="overlay-dark-mf"></div>
         <div class="container py-5 my-5">
             <div class="row py-5 my-5">
@@ -74,7 +41,6 @@
             </div>
         </div>
 </section>
-{% endif %}
 <div class="container py-5">
     <div class="row">
         <div class="col-xs-12 col-lg-8 pb-4">
@@ -84,22 +50,6 @@
             {% endfor %}
         </div>
         <div class="col-xs-12 col-lg-4">
-            <div class="card text-white bg-primary mb-4">
-                <div class="card-body">
-                    <p class="card-text">
-                        Catégorie : {{ item.category.name }}
-                    </p>
-                    <p class="card-text">
-                       Date : {{ item.created_at| strftime("%d %B %Y") }}
-                    </p>
-                    {% if item.url %}
-                    <p class="card-text">
-                        <a href="{{ item.url }}" class="btn btn-default" target="_blank">Voir le projet</a>
-                    </p>
-                    {% endif %}
-                    {% partial 'share' %}
-                </div>
-            </div>
             <div id="facebook-box" class="my-3">
                 <div class="fb-page" style="width:100%;max-width:290px" data-href="https://www.facebook.com/Vert-Boh&#xe8;me-1089002674613879/"
                      data-tabs="timeline" data-width="" data-height="" data-small-header="false"
