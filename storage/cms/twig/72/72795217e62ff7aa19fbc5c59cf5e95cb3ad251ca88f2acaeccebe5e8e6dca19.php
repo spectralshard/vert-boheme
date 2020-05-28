@@ -86,7 +86,9 @@ class __TwigTemplate_acc35f8d60ef230aae6b644be9a983f3d7e2bfdfeb6f9db2cf09a4100ba
             </div>
         </div>
     </div>
-</div>";
+</div>
+<div id=\"fb-root\"></div>
+<script async defer crossorigin=\"anonymous\" src=\"https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=297141914583105&autoLogAppEvents=1\"></script>";
     }
 
     public function getTemplateName()

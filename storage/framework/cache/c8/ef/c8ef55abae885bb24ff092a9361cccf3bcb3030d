@@ -1,4 +1,4 @@
-1586353479a:1:{s:11:"default.htm";a:7:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:3185:"description = "Default Layout"
+1590680427a:1:{s:11:"default.htm";a:8:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:3252:"description = "Default Layout"
 
 [simpleContact mysimpleContact]
 nameTitle = "Votre nom et prénom"
@@ -8,6 +8,11 @@ subjectTitle = "Sujet"
 messageTitle = "Message"
 buttonText = "Envoyer"
 displayPhone = 0
+
+[partner mypartner]
+backgroundColor = "#ffffff"
+includeCSS = 1
+includeJS = 1
 ==
 <!DOCTYPE html>
 <html lang="fr">
@@ -77,7 +82,7 @@ displayPhone = 0
 ]|theme }}"></script>
 {% framework extras %}
 {% scripts %}
-</body>";s:5:"mtime";i:1586272627;s:6:"markup";s:2927:"<!DOCTYPE html>
+</body>";s:5:"mtime";i:1590679198;s:6:"markup";s:2927:"<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="utf-8">
@@ -145,4 +150,4 @@ displayPhone = 0
 ]|theme }}"></script>
 {% framework extras %}
 {% scripts %}
-</body>";s:4:"code";N;s:11:"description";s:14:"Default Layout";s:29:"simpleContact mysimpleContact";a:7:{s:9:"nameTitle";s:20:"Votre nom et prénom";s:10:"emailTitle";s:14:"Votre courriel";s:10:"phoneTitle";s:11:"Téléphone";s:12:"subjectTitle";s:5:"Sujet";s:12:"messageTitle";s:7:"Message";s:10:"buttonText";s:7:"Envoyer";s:12:"displayPhone";s:1:"0";}}}
+</body>";s:4:"code";N;s:11:"description";s:14:"Default Layout";s:29:"simpleContact mysimpleContact";a:7:{s:9:"nameTitle";s:20:"Votre nom et prénom";s:10:"emailTitle";s:14:"Votre courriel";s:10:"phoneTitle";s:11:"Téléphone";s:12:"subjectTitle";s:5:"Sujet";s:12:"messageTitle";s:7:"Message";s:10:"buttonText";s:7:"Envoyer";s:12:"displayPhone";s:1:"0";}s:17:"partner mypartner";a:3:{s:15:"backgroundColor";s:7:"#ffffff";s:10:"includeCSS";s:1:"1";s:9:"includeJS";s:1:"1";}}}

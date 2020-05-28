@@ -1,8 +1,8 @@
-1586353479a:1:{s:8:"home.htm";a:14:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:1106:"title = "Accueil"
+1590680427a:1:{s:8:"home.htm";a:14:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:1120:"title = "Accueil"
 url = "/"
 layout = "default"
-meta_title = "Accueil | Vert Bohème"
-meta_description = "SIte Web de la fleuriste Vert Bohème."
+meta_title = "Accueil"
+meta_description = "Portfolio d'Amélie Cauchon-Simard - Atelier et fleuriste à Laval."
 is_hidden = 0
 robot_index = "index"
 robot_follow = "follow"
@@ -36,7 +36,7 @@ bootstrap = 0
 <div class="paralax-mf bg-image py-5">
     <div class="overlay-mf"></div>
         {% partial 'home/about' %}
-</div>";s:5:"mtime";i:1586272555;s:6:"markup";s:826:"<section class="py-2 text-center">
+</div>";s:5:"mtime";i:1586360409;s:6:"markup";s:826:"<section class="py-2 text-center">
         {% component 'home-slider' %}
 </section>
 <section class="py-5 text-center">
@@ -60,4 +60,4 @@ bootstrap = 0
 <div class="paralax-mf bg-image py-5">
     <div class="overlay-mf"></div>
         {% partial 'home/about' %}
-</div>";s:4:"code";N;s:5:"title";s:7:"Accueil";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:10:"meta_title";s:22:"Accueil | Vert Bohème";s:16:"meta_description";s:38:"SIte Web de la fleuriste Vert Bohème.";s:9:"is_hidden";s:1:"0";s:11:"robot_index";s:5:"index";s:12:"robot_follow";s:6:"follow";s:18:"slider home-slider";a:3:{s:8:"autoplay";s:1:"1";s:4:"loop";s:1:"1";s:9:"bootstrap";s:1:"0";}}}
+</div>";s:4:"code";N;s:5:"title";s:7:"Accueil";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:10:"meta_title";s:7:"Accueil";s:16:"meta_description";s:67:"Portfolio d'Amélie Cauchon-Simard - Atelier et fleuriste à Laval.";s:9:"is_hidden";s:1:"0";s:11:"robot_index";s:5:"index";s:12:"robot_follow";s:6:"follow";s:18:"slider home-slider";a:3:{s:8:"autoplay";s:1:"1";s:4:"loop";s:1:"1";s:9:"bootstrap";s:1:"0";}}}

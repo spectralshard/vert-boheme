@@ -1,6 +1,8 @@
-1586353479a:1:{s:9:"about.htm";a:11:{s:8:"fileName";s:9:"about.htm";s:7:"content";s:1449:"title = "À propos"
+1590680427a:1:{s:9:"about.htm";a:13:{s:8:"fileName";s:9:"about.htm";s:7:"content";s:1612:"title = "À propos"
 url = "/about"
 layout = "default"
+meta_title = "À propos"
+meta_description = "Fleuriste de formation et écolo imparfaite, je me présente Amélie Cauchon-Simard - Atelier et fleuriste à Laval."
 is_hidden = 0
 robot_index = "index"
 robot_follow = "follow"
@@ -42,7 +44,7 @@ robot_follow = "follow"
                 </div>
             </div>
     </div>
-</div>";s:5:"mtime";i:1586194518;s:6:"markup";s:1331:"<section class="py-5">
+</div>";s:5:"mtime";i:1586360460;s:6:"markup";s:1331:"<section class="py-5">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-4 pb-5">
@@ -78,4 +80,4 @@ robot_follow = "follow"
                 </div>
             </div>
     </div>
-</div>";s:4:"code";N;s:5:"title";s:9:"À propos";s:3:"url";s:6:"/about";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:11:"robot_index";s:5:"index";s:12:"robot_follow";s:6:"follow";}}
+</div>";s:4:"code";N;s:5:"title";s:9:"À propos";s:3:"url";s:6:"/about";s:6:"layout";s:7:"default";s:10:"meta_title";s:9:"À propos";s:16:"meta_description";s:116:"Fleuriste de formation et écolo imparfaite, je me présente Amélie Cauchon-Simard - Atelier et fleuriste à Laval.";s:9:"is_hidden";s:1:"0";s:11:"robot_index";s:5:"index";s:12:"robot_follow";s:6:"follow";}}

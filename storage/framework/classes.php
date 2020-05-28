@@ -82,4 +82,8 @@
   'SureSoftware\\PowerSEO\\models\\Settings' => 'plugins/suresoftware/powerseo/models/Settings.php',
   'SureSoftware\\PowerSEO\\classes\\Helper' => 'plugins/suresoftware/powerseo/classes/Helper.php',
   'SureSoftware\\PowerSEO\\Models\\Settings' => 'plugins/suresoftware/powerseo/models/Settings.php',
+  'dizoo\\partners\\Plugin' => 'plugins/dizoo/partners/Plugin.php',
+  'Dizoo\\Partners\\Components\\Partner' => 'plugins/dizoo/partners/components/Partner.php',
+  'Dizoo\\Partners\\Models\\Partners' => 'plugins/dizoo/partners/models/Partners.php',
+  'dizoo\\partners\\Controllers\\partners' => 'plugins/dizoo/partners/controllers/partners.php',
 );

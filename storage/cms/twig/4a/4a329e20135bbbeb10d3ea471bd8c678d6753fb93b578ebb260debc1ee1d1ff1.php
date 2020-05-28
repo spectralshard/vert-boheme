@@ -110,6 +110,10 @@ class __TwigTemplate_1425fbe590959153479569d86fbd4cda5aae480f57fe120d7549643a461
         echo "\" title=\"Mariage\">Mariages</a>
                         <a class=\"dropdown-item\" href=\"";
         // line 42
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("commande-personnalisee");
+        echo "\" title=\"Collabo\">Commande personnalisée</a>
+                        <a class=\"dropdown-item\" href=\"";
+        // line 43
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("collabo");
         echo "\" title=\"Collabo\">Collabo</a>
                     </div>
@@ -135,7 +139,7 @@ class __TwigTemplate_1425fbe590959153479569d86fbd4cda5aae480f57fe120d7549643a461
 
     public function getDebugInfo()
     {
-        return array (  113 => 42,  109 => 41,  95 => 30,  91 => 29,  87 => 28,  83 => 27,  74 => 21,  67 => 17,  52 => 5,  48 => 4,  44 => 3,  40 => 2,  37 => 1,);
+        return array (  117 => 43,  113 => 42,  109 => 41,  95 => 30,  91 => 29,  87 => 28,  83 => 27,  74 => 21,  67 => 17,  52 => 5,  48 => 4,  44 => 3,  40 => 2,  37 => 1,);
     }
 
     public function getSourceContext()

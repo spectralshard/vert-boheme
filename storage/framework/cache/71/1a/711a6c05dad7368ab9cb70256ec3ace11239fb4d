@@ -1,4 +1,4 @@
-1586349612a:1:{s:16:"item/default.htm";a:5:{s:8:"fileName";s:16:"item/default.htm";s:7:"content";s:1517:"{% set item = __SELF__.item %}
+1590680766a:1:{s:16:"item/default.htm";a:5:{s:8:"fileName";s:16:"item/default.htm";s:7:"content";s:1705:"{% set item = __SELF__.item %}
 <section class="paralax-mf bg-image-item">
     <div class="overlay-dark-mf"></div>
         <div class="container py-5 my-5">
@@ -30,7 +30,8 @@
         </div>
     </div>
 </div>
-";s:5:"mtime";i:1586347901;s:6:"markup";s:1516:"{% set item = __SELF__.item %}
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=297141914583105&autoLogAppEvents=1"></script>";s:5:"mtime";i:1586374666;s:6:"markup";s:1705:"{% set item = __SELF__.item %}
 <section class="paralax-mf bg-image-item">
     <div class="overlay-dark-mf"></div>
         <div class="container py-5 my-5">
@@ -61,4 +62,6 @@
             </div>
         </div>
     </div>
-</div>";s:4:"code";N;}}
+</div>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=297141914583105&autoLogAppEvents=1"></script>";s:4:"code";N;}}

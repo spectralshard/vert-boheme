@@ -1,4 +1,4 @@
-1586353480a:1:{s:10:"navbar.htm";a:6:{s:8:"fileName";s:10:"navbar.htm";s:7:"content";s:2615:"description = "Navbar"
+1590680427a:1:{s:10:"navbar.htm";a:6:{s:8:"fileName";s:10:"navbar.htm";s:7:"content";s:2752:"description = "Navbar"
 ==
 <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
     <a class="navbar-brand mx-auto d-block d-md-none" href="{{ 'home'|page }}">
@@ -41,6 +41,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="{{ 'mariages'|page }}" title="Mariage">Mariages</a>
+                        <a class="dropdown-item" href="{{ 'commande-personnalisee'|page }}" title="Collabo">Commande personnalisée</a>
                         <a class="dropdown-item" href="{{ 'collabo'|page }}" title="Collabo">Collabo</a>
                     </div>
                 </li>
@@ -50,7 +51,7 @@
             </ul>
         </div>
     </div>
-</nav>";s:5:"mtime";i:1586348190;s:6:"markup";s:2587:"<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+</nav>";s:5:"mtime";i:1586360789;s:6:"markup";s:2724:"<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
     <a class="navbar-brand mx-auto d-block d-md-none" href="{{ 'home'|page }}">
         <img src="{{ 'assets/images/vert-boheme-logo.svg'|theme }}"
              title="{{ this.theme.site_name }}"
@@ -91,6 +92,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="{{ 'mariages'|page }}" title="Mariage">Mariages</a>
+                        <a class="dropdown-item" href="{{ 'commande-personnalisee'|page }}" title="Collabo">Commande personnalisée</a>
                         <a class="dropdown-item" href="{{ 'collabo'|page }}" title="Collabo">Collabo</a>
                     </div>
                 </li>
