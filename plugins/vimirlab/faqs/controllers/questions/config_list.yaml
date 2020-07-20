@@ -1,0 +1,18 @@
+title: Faqs Questions
+list: ~/plugins/vimirlab/faqs/models/question/columns.yaml
+
+modelClass: VimirLab\Faqs\Models\Question
+recordUrl: vimirlab/faqs/questions/update/:id
+
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: backend::lang.list.search_prompt
+
+defaultSort:
+    column: created_at
+    direction: desc

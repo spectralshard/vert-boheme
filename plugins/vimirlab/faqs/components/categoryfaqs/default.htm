@@ -1,0 +1,26 @@
+{% set categories = __SELF__.categories %}
+	{% for category in categories %}
+
+		<button class="tab tablinks" onclick="openCat(event, 'category-{{ category.id }}')">{{ category.category_name }}</button>
+
+		<div id="category-{{ category.id }}" class="tabcontent">
+			{% set questions = __SELF__.questions %}
+			<div class="item faq faq-que-ans" data-role="faq">
+				{% for question in questions %}
+					{% if question.category_id == category.id %}
+						<div class="que-ans">
+							<a href="#que-{{ question.id }}">
+								<div class="faq-que">
+									<p>{{ question.question }}</p>
+								</div>
+							</a>
+							<div id="que-{{ question.id }}" class="faq-ans">
+								<p>{{ question.answer|raw }}</p>			
+							</div>
+						</div>
+					{% endif %}
+				{% endfor %}
+			</div>														
+		</div>
+	{% endfor %}
+ 

@@ -1,0 +1,45 @@
+columns:
+    id:
+        label: ID
+        searchable: true
+        invisible: true
+        
+    question:
+        label: Question
+        searchable: true
+        sortable: true
+        
+    answer:
+        label: Answer
+        searchable: true
+        sortable: true
+        
+    category_id:
+        label: Category
+        type: text
+        relation: category
+        select: category_name
+        searchable: true
+        sortable: true
+        
+    published_date:
+        label: Published Date        
+        type: datetime
+        searchable: true
+        sortable: true
+        
+    user_email:
+        label: User EMail
+        searchable: true
+        sortable: true
+    
+    is_active:
+        label: Published
+        type: switch
+        
+    created_at:
+        label: Created Date        
+        type: datetime
+        searchable: true
+        sortable: true
+        invisible: true

@@ -1,0 +1,12 @@
+title: Faqs Categories
+list: ~/plugins/vimirlab/faqs/models/category/columns.yaml
+modelClass: VimirLab\Faqs\Models\Category
+recordUrl: vimirlab/faqs/categories/update/:id
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: backend::lang.list.search_prompt

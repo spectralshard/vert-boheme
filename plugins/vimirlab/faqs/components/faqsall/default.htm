@@ -1,0 +1,16 @@
+{% set questions = __SELF__.questions %}
+
+<div class="item faq faq-que-ans" data-role="faq">
+	{% for question in questions %}
+		<div class="que-ans">
+			<a href="#que-{{ question.id }}">
+				<div class="faq-que">
+					<p>{{ question.question }}</p>
+				</div>
+			</a>
+			<div id="que-{{ question.id }}" class="faq-ans">
+				<p>{{ question.answer|raw }}</p>			
+			</div>
+		</div>
+	{% endfor %}
+</div>

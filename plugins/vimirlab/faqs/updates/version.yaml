@@ -1,0 +1,4 @@
+1.0.0:
+    - First version of Faqs
+    - create_faqs_categories.php
+    - create_faqs_questions.php

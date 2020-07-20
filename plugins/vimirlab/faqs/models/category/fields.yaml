@@ -1,0 +1,7 @@
+fields:
+    category_name:
+        label: Category Name
+        
+    is_active:
+        label: Is published?
+        type: switch

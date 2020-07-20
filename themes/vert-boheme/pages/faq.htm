@@ -1,0 +1,41 @@
+title = "FAQ"
+url = "/faq"
+layout = "default"
+meta_title = "FAQ"
+is_hidden = 0
+
+[faqsall faqsall]
+==
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 pb-3">
+                <h1 class="h1-responsive"><span class="underline_text">Questions et réponses à propos de mes produits</span></h1>
+            </div>
+            <div class="col-sm-12 pb-5">
+                {% component 'faqsall' %}
+                <hr>
+                <p>Pour toutes questions ou demandes spéciales, n’hésitez pas à m’écrire au ameliecs@me.com et je vous répondrai le plus rapidement possible.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="paralax-mf bg-image py-5 text-center">
+    <div class="overlay-mf"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="h2-responsive">
+                    <span class="underline_text">Mes dernières créations</span>
+                </h2>
+            </div>
+        </div>
+        {% partial 'home/lastportfolio' %}
+        <div class="row py-3">
+            <div class="col text-center">
+                <a href="{{ 'mes-projets'|page }}"
+                   class="btn btn-secondary text-white">Voir tous mes projets</a>
+            </div>
+        </div>
+    </div>
+</div>

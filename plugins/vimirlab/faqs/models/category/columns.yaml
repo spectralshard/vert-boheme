@@ -1,0 +1,15 @@
+columns:
+    id:
+        label: ID
+        searchable: true
+        invisible: true
+        
+    category_name:
+        label: Categories
+        searchable: true
+        sortable: true
+        
+    is_active:
+        label: Is Published
+        type: switch
+    

@@ -16,12 +16,12 @@ description = "Navbar"
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="nav navbar-nav">
                 <li class="nav-item px-2">
-                    <a class="nav-link" href="{{ 'home'|page }}"
-                    title="Accueil">Accueil</a>
-                </li>
-                <li class="nav-item px-2">
                     <a class="nav-link" href="{{ 'about'|page }}"
                     title="À propos">À propos</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="{{ 'faq'|page }}"
+                       title="FAQ">FAQ</a>
                 </li>
             </ul>
             <ul class="nav navbar-nav mx-auto d-none d-sm-none d-md-block">
@@ -40,9 +40,9 @@ description = "Navbar"
                         Créations
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="{{ 'mariages'|page }}" title="Mariage">Mariages</a>
-                        <a class="dropdown-item" href="{{ 'commande-personnalisee'|page }}" title="Collabo">Commande personnalisée</a>
-                        <a class="dropdown-item" href="{{ 'collabo'|page }}" title="Collabo">Collabo</a>
+                        <a class="dropdown-item" href="{{ 'home'|page }}/records/mariages" title="Mariage">Mariages</a>
+                        <a class="dropdown-item" href="{{ 'home'|page }}/records/commande-personnalisee" title="Collabo">Commande personnalisée</a>
+                        <a class="dropdown-item" href="{{ 'home'|page }}/records/collabo" title="Collabo">Collabo</a>
                     </div>
                 </li>
                 <li class="nav-item px-2">

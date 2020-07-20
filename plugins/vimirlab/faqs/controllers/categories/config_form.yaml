@@ -1,0 +1,15 @@
+name: FAQ Categories
+form: ~/plugins/vimirlab/faqs/models/category/fields.yaml
+modelClass: VimirLab\Faqs\Models\Category
+defaultRedirect: vimirlab/faq/categories
+
+create:
+    title: Add Category
+    redirect: vimirlab/faqs/categories/update/:id
+    redirectClose: vimirlab/faqs/categories
+    flashSave: Category added successfully!
+
+update:
+    title: Edit Category
+    redirect: vimirlab/faqs/categories
+    redirectClose: vimirlab/faqs/categories

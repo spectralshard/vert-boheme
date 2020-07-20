@@ -1,0 +1,26 @@
+fields:        
+    category:
+        label: Category
+        type: relation
+        nameFrom: category_name
+        span: left
+        
+    is_active:
+        label: Is published?
+        type: switch
+        span: right
+        
+    question:
+        label: Question
+        
+    answer:
+        label: Answer
+        type: richeditor
+        
+    published_date:
+        label: Published Date
+        type: datepicker
+        
+    user_email:
+        label: User email
+        disabled: false
