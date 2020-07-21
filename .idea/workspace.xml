@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34d4c691-3deb-4ef2-aa63-7840a890d64b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/modules/backend/classes/MainMenuItem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/backend/classes/SideMenuItem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/backend/controllers/users/_btn_unsuspend.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/backend/lang/rs/lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/backend/models/editorsetting/_toolbar_presets.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/backend/traits/UploadableWidget.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/cms/components/SoftComponent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/cms/lang/rs/lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/system/assets/ui/less/global.mixins.utility.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/system/console/PluginRollback.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/system/lang/rs/client.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/system/lang/rs/lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/system/lang/rs/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/dizoo/partners/lang/fr/lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/dizoo/slider/updates/add_dimensions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/LICENCE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/Plugin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/assets/css/rainlab.blog-export.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/assets/css/rainlab.blog-preview.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/assets/images/blog-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/assets/js/post-form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/assets/less/rainlab.blog-preview.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/classes/TagProcessor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/components/Categories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/components/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/components/Posts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/components/RssFeed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/components/categories/default.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/components/categories/items.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/components/post/default.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/components/posts/default.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/components/rssfeed/default.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/Categories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/Posts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/categories/_list_toolbar.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/categories/_reorder_toolbar.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/categories/config_form.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/categories/config_list.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/categories/config_reorder.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/categories/create.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/categories/index.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/categories/reorder.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/categories/update.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/posts/_list_toolbar.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/posts/_post_toolbar.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/posts/config_filter.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/posts/config_form.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/posts/config_import_export.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/posts/config_list.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/posts/create.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/posts/export.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/posts/import.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/posts/index.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/posts/update.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/formwidgets/BlogMarkdown.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/formwidgets/MLBlogMarkdown.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/bg/lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/cs/lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/de/lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/en/lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/es/lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/fa/lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/fi/lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/fr/lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/hu/lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/it/lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/ja/lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/nb-no/lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/nl/lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/pl/lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/pt-br/lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/ru/lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/sk/lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/sl/lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/tr/lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/zh-cn/lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/PostExport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/PostImport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/Settings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/category/columns.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/category/fields.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/post/columns.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/post/fields.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/postexport/columns.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/postimport/columns.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/postimport/fields.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/settings/fields.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/updates/categories_add_nested_fields.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/updates/create_categories_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/updates/create_posts_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/updates/posts_add_metadata.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/updates/seed_all_tables.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/updates/update_timestamp_nullable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/updates/version.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/AglInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/AimeosInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/AnnotateCmsInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/AsgardInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/AttogramInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/BaseInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/BitrixInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/BonefishInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/CakePHPInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/ChefInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/CiviCrmInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/ClanCatsFrameworkInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/CockpitInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/CodeIgniterInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/Concrete5Installer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/CraftInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/CroogoInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/DecibelInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/DframeInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/DokuWikiInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/DolibarrInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/DrupalInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/ElggInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/EliasisInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/ExpressionEngineInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/EzPlatformInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/FuelInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/FuelphpInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/GravInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/HuradInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/ImageCMSInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/Installer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/ItopInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/JoomlaInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/KanboardInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/KirbyInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/KnownInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/KodiCMSInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/KohanaInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/LanManagementSystemInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/LaravelInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/LavaLiteInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/LithiumInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/MODULEWorkInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/MODXEvoInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/MagentoInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/MajimaInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/MakoInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/MauticInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/MayaInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/MediaWikiInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/MicroweberInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/ModxInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/MoodleInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/OctoberInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/OntoWikiInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/OsclassInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/OxidInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/PPIInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/PhiftyInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/PhpBBInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/PimcoreInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/PiwikInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/PlentymarketsInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/Plugin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/PortoInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/PrestashopInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/PuppetInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/PxcmsInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/RadPHPInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/ReIndexInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/Redaxo5Installer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/RedaxoInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/RoundcubeInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/SMFInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/ShopwareInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/SilverStripeInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/SiteDirectInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/SyDESInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/Symfony1Installer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/TYPO3CmsInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/TYPO3FlowInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/TaoInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/TheliaInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/TuskInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/UserFrostingInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/VanillaInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/VgmcpInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/WHMCSInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/WolfCMSInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/WordPressInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/YawikInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/ZendInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/Composer/Installers/ZikulaInstaller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/rainlab/blog/vendor/composer/installers/src/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/38/fd/38fd4ba8206548daec400efa5b61f5e8bbeadbd5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/68/14/681441af38ac2f05a56d7118130f932163789338" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/8d/95/8d95fe9ddf0ed76756982b6268c1da79ffd91246" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/97/6f/976f103c3df4500432335b1b39c989a82132e8f3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/ef/f6/eff678004f5d9e1f8eda4497b128f310118da7c3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/fa/3f/fa3f81088e2d9ce8a42c0db23cb0eae4a793992a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/fd/f2/fdf2e74a9196a383e93783a2dcdb91bda67983b2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/YyYpvAWc7Ny3qF9lYwrO8RCFwbIOG08K0FHU4TeE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/vert-boheme/pages/category.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/vert-boheme/pages/record.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/vert-boheme/pages/records.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/vert-boheme/partials/categoriesPortfolio/default.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/vert-boheme/partials/portfolioItem/default.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/vert-boheme/partials/recordsList/default.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/EmailLexer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/EmailParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/EmailValidator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Exception/AtextAfterCFWS.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Exception/CRLFAtTheEnd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Exception/CRLFX2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Exception/CRNoLF.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Exception/CharNotAllowed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Exception/CommaInDomain.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Exception/ConsecutiveAt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Exception/ConsecutiveDot.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Exception/DomainHyphened.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Exception/DotAtEnd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Exception/DotAtStart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Exception/ExpectingAT.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Exception/ExpectingATEXT.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Exception/ExpectingCTEXT.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Exception/ExpectingDTEXT.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Exception/ExpectingDomainLiteralClose.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Exception/ExpectingQPair.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Exception/InvalidEmail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Exception/NoDNSRecord.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Exception/NoDomainPart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Exception/NoLocalPart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Exception/UnclosedComment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Exception/UnclosedQuotedString.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Exception/UnopenedComment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Parser/DomainPart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Parser/LocalPart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Parser/Parser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Validation/DNSCheckValidation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Validation/EmailValidation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Validation/Error/RFCWarnings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Validation/Error/SpoofEmail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Validation/Exception/EmptyValidationList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Validation/MultipleErrors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Validation/MultipleValidationWithAnd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Validation/NoRFCWarningsValidation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Validation/RFCValidation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Validation/SpoofCheckValidation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Warning/AddressLiteral.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Warning/CFWSNearAt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Warning/CFWSWithFWS.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Warning/Comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Warning/DeprecatedComment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Warning/DomainLiteral.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Warning/DomainTooLong.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Warning/EmailTooLong.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Warning/IPV6BadChar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Warning/IPV6ColonEnd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Warning/IPV6ColonStart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Warning/IPV6Deprecated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Warning/IPV6DoubleColon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Warning/IPV6GroupCount.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Warning/IPV6MaxGroups.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Warning/LabelTooLong.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Warning/LocalTooLong.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Warning/NoDNSMXRecord.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Warning/ObsoleteDTEXT.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Warning/QuotedPart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Warning/QuotedString.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Warning/TLD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/src/Warning/Warning.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/october/rain/src/Parse/League/EscapeFormula.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/october/rain/src/Scaffold/Console/CreateReportWidget.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/october/rain/src/Scaffold/Console/reportwidget/reportwidget.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/october/rain/src/Scaffold/Console/reportwidget/widget.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/Test/DummyTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/stream_output_file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Tests/Fixtures/Controller/LegacyNullableController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/ServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/ServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/assets/css/october.css" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/assets/css/october.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/assets/js/october-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/assets/js/october-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/assets/js/october.navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/assets/js/october.navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/assets/js/october.sidepaneltab.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/assets/js/october.sidepaneltab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/assets/js/vendor/jquery-and-migrate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/assets/js/vendor/jquery-and-migrate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/assets/js/vendor/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/assets/js/vendor/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/assets/less/layout/mainmenu.less" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/assets/less/layout/mainmenu.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/assets/less/layout/outerlayout.less" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/assets/less/layout/outerlayout.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/behaviors/FormController.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/behaviors/FormController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/behaviors/ImportExportController.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/behaviors/ImportExportController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/behaviors/ListController.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/behaviors/ListController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/behaviors/RelationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/behaviors/RelationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/behaviors/importexportcontroller/TranscodeFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/behaviors/importexportcontroller/TranscodeFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/behaviors/importexportcontroller/partials/_import_file_columns.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/behaviors/importexportcontroller/partials/_import_file_columns.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/behaviors/relationcontroller/partials/_button_add.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/behaviors/relationcontroller/partials/_button_add.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/behaviors/relationcontroller/partials/_button_create.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/behaviors/relationcontroller/partials/_button_create.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/behaviors/relationcontroller/partials/_button_delete.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/behaviors/relationcontroller/partials/_button_delete.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/behaviors/relationcontroller/partials/_button_link.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/behaviors/relationcontroller/partials/_button_link.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/behaviors/relationcontroller/partials/_button_remove.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/behaviors/relationcontroller/partials/_button_remove.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/behaviors/relationcontroller/partials/_button_unlink.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/behaviors/relationcontroller/partials/_button_unlink.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/behaviors/relationcontroller/partials/_button_update.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/behaviors/relationcontroller/partials/_button_update.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/behaviors/relationcontroller/partials/_manage_pivot.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/behaviors/relationcontroller/partials/_manage_pivot.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/behaviors/relationcontroller/partials/_pivot_form.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/behaviors/relationcontroller/partials/_pivot_form.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/behaviors/relationcontroller/partials/_toolbar.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/behaviors/relationcontroller/partials/_toolbar.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/classes/AuthManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/classes/AuthManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/classes/FormField.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/classes/FormField.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/classes/FormTabs.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/classes/FormTabs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/classes/NavigationManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/classes/NavigationManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/controllers/Users.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/controllers/Users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/controllers/preferences/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/controllers/preferences/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/controllers/usergroups/create.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/controllers/usergroups/create.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/controllers/usergroups/update.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/controllers/usergroups/update.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/controllers/userroles/create.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/controllers/userroles/create.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/controllers/userroles/update.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/controllers/userroles/update.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/controllers/users/create.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/controllers/users/create.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/controllers/users/myaccount.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/controllers/users/myaccount.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/controllers/users/update.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/controllers/users/update.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/ColorPicker.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/ColorPicker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/MarkdownEditor.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/MarkdownEditor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/MediaFinder.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/MediaFinder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/RecordFinder.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/RecordFinder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/Relation.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/Relation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/RichEditor.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/RichEditor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/TagList.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/TagList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/codeeditor/partials/_codeeditor.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/codeeditor/partials/_codeeditor.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/colorpicker/assets/css/colorpicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/colorpicker/assets/css/colorpicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/colorpicker/assets/js/colorpicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/colorpicker/assets/js/colorpicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/colorpicker/assets/less/colorpicker.less" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/colorpicker/assets/less/colorpicker.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/colorpicker/partials/_colorpicker.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/colorpicker/partials/_colorpicker.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/fileupload/assets/js/fileupload.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/fileupload/assets/js/fileupload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/fileupload/partials/_file_multi.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/fileupload/partials/_file_multi.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/fileupload/partials/_file_single.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/fileupload/partials/_file_single.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/fileupload/partials/_image_multi.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/fileupload/partials/_image_multi.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/fileupload/partials/_image_single.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/fileupload/partials/_image_single.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/markdowneditor/assets/css/markdowneditor.css" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/markdowneditor/assets/css/markdowneditor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/markdowneditor/assets/js/markdowneditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/markdowneditor/assets/js/markdowneditor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/markdowneditor/assets/less/markdowneditor.less" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/markdowneditor/assets/less/markdowneditor.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/markdowneditor/partials/_markdowneditor.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/markdowneditor/partials/_markdowneditor.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/mediafinder/assets/js/mediafinder.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/mediafinder/assets/js/mediafinder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/mediafinder/partials/_file_single.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/mediafinder/partials/_file_single.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/mediafinder/partials/_image_single.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/mediafinder/partials/_image_single.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/mediafinder/partials/_mediafinder.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/mediafinder/partials/_mediafinder.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/repeater/assets/js/repeater.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/repeater/assets/js/repeater.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/richeditor/assets/css/richeditor.css" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/richeditor/assets/css/richeditor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/richeditor/assets/js/build-plugins-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/richeditor/assets/js/build-plugins-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/richeditor/assets/js/richeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/richeditor/assets/js/richeditor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/richeditor/assets/less/richeditor.less" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/richeditor/assets/less/richeditor.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/richeditor/assets/vendor/froala/js/languages/de.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/formwidgets/richeditor/partials/_richeditor.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/richeditor/partials/_richeditor.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/helpers/Backend.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/helpers/Backend.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/lang/ca/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/lang/ca/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/lang/cs/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/lang/cs/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/lang/de/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/lang/de/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/lang/en/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/lang/en/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/lang/fa/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/lang/fa/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/lang/fi/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/lang/fi/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/lang/fr/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/lang/fr/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/lang/hu/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/lang/hu/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/lang/nl/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/lang/nl/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/lang/pl/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/lang/pl/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/lang/pt-br/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/lang/pt-br/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/lang/pt-pt/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/lang/pt-pt/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/lang/ru/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/lang/ru/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/lang/sk/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/lang/sk/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/lang/sl/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/lang/sl/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/lang/th/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/lang/th/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/lang/tr/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/lang/tr/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/lang/uk/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/lang/uk/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/lang/vn/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/lang/vn/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/lang/zh-cn/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/lang/zh-cn/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/layouts/_head.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/layouts/_head.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/layouts/_mainmenu.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/layouts/_mainmenu.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/layouts/auth.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/layouts/auth.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/models/EditorSetting.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/models/EditorSetting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/models/ExportModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/models/ExportModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/models/ImportModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/models/ImportModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/models/Preference.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/models/Preference.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/models/UserThrottle.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/models/UserThrottle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/models/editorsetting/fields.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/models/editorsetting/fields.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/models/user/fields.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/models/user/fields.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/traits/WidgetMaker.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/traits/WidgetMaker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/widgets/Filter.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/widgets/Filter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/widgets/Form.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/widgets/Form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/widgets/Lists.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/widgets/Lists.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/widgets/MediaManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/widgets/MediaManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/widgets/Search.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/widgets/Search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/widgets/Table.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/widgets/Table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/widgets/filter/partials/_filter.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/widgets/filter/partials/_filter.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/widgets/filter/partials/_scope_date.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/widgets/filter/partials/_scope_date.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/widgets/filter/partials/_scope_daterange.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/widgets/filter/partials/_scope_daterange.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/widgets/form/assets/js/october.form.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/widgets/form/assets/js/october.form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/widgets/form/partials/_field_password.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/widgets/form/partials/_field_password.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/widgets/form/partials/_form_tabs.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/widgets/form/partials/_form_tabs.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/widgets/lists/partials/_list_body_checkbox.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/widgets/lists/partials/_list_body_checkbox.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/widgets/mediamanager/assets/js/mediamanager-browser-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/widgets/mediamanager/assets/js/mediamanager-browser-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/widgets/mediamanager/assets/js/mediamanager.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/widgets/mediamanager/assets/js/mediamanager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/widgets/mediamanager/partials/_body.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/widgets/mediamanager/partials/_body.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/widgets/mediamanager/partials/_toolbar.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/widgets/mediamanager/partials/_toolbar.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/widgets/table/assets/js/build-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/widgets/table/assets/js/build-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/widgets/table/assets/js/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/widgets/table/assets/js/table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/backend/widgets/table/partials/_table.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/backend/widgets/table/partials/_table.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/cms/assets/css/october.components.css" beforeDir="false" afterPath="$PROJECT_DIR$/modules/cms/assets/css/october.components.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/cms/assets/js/october.cmspage.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/cms/assets/js/october.cmspage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/cms/assets/less/october.components.less" beforeDir="false" afterPath="$PROJECT_DIR$/modules/cms/assets/less/october.components.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/cms/classes/Asset.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/cms/classes/Asset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/cms/classes/AutoDatasource.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/cms/classes/AutoDatasource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/cms/classes/CodeParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/cms/classes/CodeParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/cms/classes/ComponentHelpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/cms/classes/ComponentHelpers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/cms/classes/ComponentManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/cms/classes/ComponentManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/cms/classes/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/cms/classes/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/cms/classes/Meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/cms/classes/Meta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/cms/classes/Page.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/cms/classes/Page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/cms/classes/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/cms/classes/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/cms/classes/Theme.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/cms/classes/Theme.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/cms/controllers/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/cms/controllers/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/cms/controllers/themeoptions/update.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/cms/controllers/themeoptions/update.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/cms/formwidgets/Components.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/cms/formwidgets/Components.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/cms/lang/en/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/cms/lang/en/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/cms/lang/nl/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/cms/lang/nl/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/cms/lang/sl/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/cms/lang/sl/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/cms/widgets/AssetList.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/cms/widgets/AssetList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/cms/widgets/assetlist/assets/js/assetlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/cms/widgets/assetlist/assets/js/assetlist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/ServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/ServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/assets/js/framework-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/assets/js/framework-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/assets/js/framework.combined-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/assets/js/framework.combined-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/assets/js/framework.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/assets/js/framework.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/assets/ui/docs/checkbox.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/assets/ui/docs/checkbox.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/assets/ui/docs/popup.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/assets/ui/docs/popup.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/assets/ui/docs/select.md" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/assets/ui/docs/select.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/assets/ui/js/filter.dates.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/assets/ui/js/filter.dates.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/assets/ui/js/filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/assets/ui/js/filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/assets/ui/js/filter.numbers.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/assets/ui/js/filter.numbers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.editor.autocomplete.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.editor.autocomplete.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.editor.dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.editor.dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.surface.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.surface.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/assets/ui/js/tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/assets/ui/js/tab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/assets/ui/less/global.mixins.utility.less" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/assets/ui/less/global.mixins.utility.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/assets/ui/less/inspector.less" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/assets/ui/less/inspector.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/assets/ui/less/site.normalize.less" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/assets/ui/less/site.normalize.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/assets/ui/storm-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/assets/ui/storm-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/assets/ui/storm.css" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/assets/ui/storm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/classes/MediaLibrary.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/classes/MediaLibrary.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/classes/PluginManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/classes/PluginManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/classes/UpdateManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/classes/UpdateManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/classes/VersionManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/classes/VersionManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/console/OctoberEnv.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/console/OctoberEnv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/console/OctoberUtil.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/console/OctoberUtil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/console/ThemeSync.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/console/ThemeSync.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/controllers/Updates.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/controllers/Updates.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/controllers/mailbrandsettings/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/controllers/mailbrandsettings/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/controllers/maillayouts/create.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/controllers/maillayouts/create.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/controllers/maillayouts/update.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/controllers/maillayouts/update.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/controllers/mailpartials/create.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/controllers/mailpartials/create.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/controllers/mailpartials/update.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/controllers/mailpartials/update.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/controllers/mailtemplates/create.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/controllers/mailtemplates/create.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/controllers/mailtemplates/update.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/controllers/mailtemplates/update.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/controllers/settings/update.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/controllers/settings/update.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/controllers/updates/_list_toolbar.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/controllers/updates/_list_toolbar.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/controllers/updates/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/controllers/updates/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/lang/ar/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/lang/ar/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/lang/en/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/lang/en/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/lang/et/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/lang/et/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/lang/fa/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/lang/fa/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/lang/fi/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/lang/fi/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/lang/hu/client.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/lang/hu/client.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/lang/lt/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/lang/lt/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/lang/nl/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/lang/nl/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/lang/pt-br/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/lang/pt-br/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/lang/pt-pt/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/lang/pt-pt/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/lang/ru/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/lang/ru/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/lang/sk/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/lang/sk/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/lang/sl/client.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/lang/sl/client.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/lang/sl/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/lang/sl/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/lang/tr/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/lang/tr/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/lang/vn/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/lang/vn/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/models/MailLayout.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/models/MailLayout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/models/MailTemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/models/MailTemplate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/system/reportwidgets/Status.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/system/reportwidgets/Status.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/dizoo/partners/assets/css/partners.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/dizoo/partners/assets/css/partners.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/dizoo/partners/components/partner/default.htm" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/dizoo/partners/components/partner/default.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/dizoo/partners/models/partners/columns.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/dizoo/partners/models/partners/columns.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/dizoo/partners/updates/version.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/dizoo/partners/updates/version.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/dizoo/slider/Plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/dizoo/slider/Plugin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/dizoo/slider/assets/css/custom-slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/dizoo/slider/assets/css/custom-slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/dizoo/slider/components/Slider.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/dizoo/slider/components/Slider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/dizoo/slider/components/slider/default.htm" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/dizoo/slider/components/slider/default.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/dizoo/slider/lang/en/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/dizoo/slider/lang/en/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/dizoo/slider/lang/nl/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/dizoo/slider/lang/nl/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/dizoo/slider/models/Slides.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/dizoo/slider/models/Slides.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/dizoo/slider/models/slides/fields.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/dizoo/slider/models/slides/fields.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/dizoo/slider/updates/version.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/dizoo/slider/updates/version.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/15/c1/default.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/15/c1/default.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/30/63/default.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/30/63/default.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/3f/69/lastportfolio.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/3f/69/lastportfolio.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/47/64/footer.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/47/64/footer.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/56/39/collabo.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/5e/b1/default.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/5e/b1/default.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/63/ff/item.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/94/7c/navbar.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/94/7c/navbar.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/9f/4a/mariages.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/9f/8d/default.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/a1/ce/default.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/a1/ce/default.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/a2/89/default.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/dc/a9/about.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/dc/a9/about.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/dd/10/about.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/ee/97/home.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/ee/97/home.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/combiner/assets/3366baa838eeb8239586da652d7c0869" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/combiner/assets/56014754574359812d6b4a09b0a76d74" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/combiner/assets/6e77711e6722f5d3fb9cd9d27eac1324" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/combiner/assets/c164e0e95e885eead8f8d793804776d8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/combiner/assets/c3f0ad4c801dbd0b1556c76bf59e0b7e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/4a/4a329e20135bbbeb10d3ea471bd8c678d6753fb93b578ebb260debc1ee1d1ff1.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/4a/4a329e20135bbbeb10d3ea471bd8c678d6753fb93b578ebb260debc1ee1d1ff1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/68/68bebb0435cb9e7d2fe182599ee96cc1fcd6cb66440b6864a622e6de050855b5.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/72/72795217e62ff7aa19fbc5c59cf5e95cb3ad251ca88f2acaeccebe5e8e6dca19.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/87/87fe8862c43876d7d5ac52cb996845865278c00784875a677d7529017bd5f4e3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/88/888bcfa36fd5a57245cf9b1ea00014579d12bf0ab5899dc7c42613a10496cfbc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/b2/b2f3d3f0c4e568a4861c1f847707329dd42427e6c7fc284d0e7faa6cd9b58ae4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/f4/f4e03bcc3935ce54a088e0c726e36249ae419c5bd63109b5db3ed36ff94cd0af.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/08/df/08dfdfd922681bba7ab5215d56b7da8dd8d64c53" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/08/df/08dfdfd922681bba7ab5215d56b7da8dd8d64c53" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/11/de/11de31e1eabb2682cf62ee9c9ccb0630f1019006" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/11/de/11de31e1eabb2682cf62ee9c9ccb0630f1019006" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/1d/c5/1dc5397b995ea010b84b8873d7c7dd7ee995741d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/1d/c5/1dc5397b995ea010b84b8873d7c7dd7ee995741d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/1e/ee/1eee27376705ac9bc62167b974b8a8679462483d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/22/43/2243f500ae1632e1e609a9d4d08e7bad65800071" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/22/43/2243f500ae1632e1e609a9d4d08e7bad65800071" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/26/87/268708b3dec453876a36f5168757b1f067658a99" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/26/87/268708b3dec453876a36f5168757b1f067658a99" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/34/c4/34c4a1cd63a1bd78bd3534ff26ec23a9c938c006" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/38/b2/38b20144fe863035a91f55c4a176b608a669364e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/40/05/4005467b104e9eb110eaeef6af145a1f4e287b7d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/40/05/4005467b104e9eb110eaeef6af145a1f4e287b7d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/41/66/4166a91843d4292aa3f4a057b1ad3b86d149238e" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/41/66/4166a91843d4292aa3f4a057b1ad3b86d149238e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/45/35/4535c5c23baefe71884b290e4875ac82e1dc3bab" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/45/35/4535c5c23baefe71884b290e4875ac82e1dc3bab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/47/e3/47e3289c55de5a8fdff894cbaf6771d9b83ff17a" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/47/e3/47e3289c55de5a8fdff894cbaf6771d9b83ff17a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/49/67/49678a1e52db6f1850bb2efd38533d6a8a765a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/49/da/49da12a04eac4ec00f556ae4467a82c115e94070" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/4e/57/4e57fe8fa746a5a6eeba9ff470ef093d4391fdcf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/51/a1/51a104a9757ce25d098dfe2de3e6eea63fe6460d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/51/a1/51a104a9757ce25d098dfe2de3e6eea63fe6460d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/51/a5/51a5807beed2160124806c9026e7ba0733ba3d45" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/51/a5/51a5807beed2160124806c9026e7ba0733ba3d45" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/5b/72/5b729f6852c02abfb64f225ba29aaaebea7fb713" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/5b/72/5b729f6852c02abfb64f225ba29aaaebea7fb713" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/5e/27/5e278fab63f1d210c77ee20b73cae82f0d2f8a25" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/5e/27/5e278fab63f1d210c77ee20b73cae82f0d2f8a25" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/5f/87/5f877c890737ecb41da2c97d357cc28595dfff03" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/5f/87/5f877c890737ecb41da2c97d357cc28595dfff03" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/6b/0f/6b0f3881ed04ce1bc7320be217533b2121b5be2c" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/6b/0f/6b0f3881ed04ce1bc7320be217533b2121b5be2c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/71/1a/711a6c05dad7368ab9cb70256ec3ace11239fb4d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/72/4d/724d64623b82cdd367a46a1a3611b8fce75faedf" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/72/4d/724d64623b82cdd367a46a1a3611b8fce75faedf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/73/9b/739b0e4427b974390a44459b48694c0aeae811db" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/73/9b/739b0e4427b974390a44459b48694c0aeae811db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/77/61/77616e1c5e0d202cb4cf522bddafaebf56f27660" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/77/61/77616e1c5e0d202cb4cf522bddafaebf56f27660" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/79/7a/797a0ff5676533086f9d233823d2b2996424c558" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/79/7a/797a0ff5676533086f9d233823d2b2996424c558" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/79/d8/79d8116deb1d11f002db9d6c330763444158bfdc" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/79/d8/79d8116deb1d11f002db9d6c330763444158bfdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/7d/8c/7d8c1039d97f6197fa63760c545182f0a6f283d4" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/7d/8c/7d8c1039d97f6197fa63760c545182f0a6f283d4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/83/b4/83b4c9cedb265a8417b1b87a333492643f5eb1c3" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/83/b4/83b4c9cedb265a8417b1b87a333492643f5eb1c3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/84/f7/84f7a005d1a07fdc2890022c0378ae1f6d91bb23" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/84/f7/84f7a005d1a07fdc2890022c0378ae1f6d91bb23" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/97/37/9737833e426f53b3dcb4d98fdcb68c76762765de" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/97/37/9737833e426f53b3dcb4d98fdcb68c76762765de" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/99/01/9901f87c69b4762a9d0d943d44bef647f5e91837" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/9d/8c/9d8c6d7bb35aad615c206c64a0fcdc50ca76e455" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/a0/c9/a0c910eb995ad1e9281e5bb05187281e039e242f" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/a0/c9/a0c910eb995ad1e9281e5bb05187281e039e242f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/a1/93/a193134b31c37ffac3ac9ec878d888ca97d0879b" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/a1/93/a193134b31c37ffac3ac9ec878d888ca97d0879b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/a4/c4/a4c46db3c1a93254cb301e5d4439b4e37684f0be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/ac/0d/ac0dcdc75520dfcbbd3812a4fdcbddd73d4179c4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/b0/b7/b0b76091758909a5c5e0550dd9cf15ef60a1f35e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/b1/b6/b1b6b61b6cd58fcbec08f9d00687d524901e8a6d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/b1/b6/b1b6b61b6cd58fcbec08f9d00687d524901e8a6d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/b8/1e/b81e9f5f3da57aff6dd1e3a500ba3db5271a8140" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/b8/1e/b81e9f5f3da57aff6dd1e3a500ba3db5271a8140" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/b9/93/b993f9e92665b974e9c009d66d8f7d381e902fd9" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/b9/93/b993f9e92665b974e9c009d66d8f7d381e902fd9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/ba/a9/baa9c05e90e63e643448f3c0e0d3c3c14fabdf6c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/bf/59/bf597f5f603f900b576b2586670bc0c36c156838" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/bf/59/bf597f5f603f900b576b2586670bc0c36c156838" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/c8/ef/c8ef55abae885bb24ff092a9361cccf3bcb3030d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/c8/ef/c8ef55abae885bb24ff092a9361cccf3bcb3030d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/cb/0b/cb0b5dfc2a67d8b2192c5c43bd63b07dc075400a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/ce/90/ce90d45baafe1ce6fe669b15105d65b219ac9c97" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/cf/a5/cfa51abb6cea4da12527e48a4be42091b8bd4a91" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/d0/1e/d01e8e95ac402ba16ad83ad09f6851991c3b6212" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/d0/1e/d01e8e95ac402ba16ad83ad09f6851991c3b6212" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/d2/bf/d2bfa1437aba00dadecca2b56617050d8f711997" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/d2/bf/d2bfa1437aba00dadecca2b56617050d8f711997" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/df/db/dfdb538a6ef4928090c6e9439cd0cc11736ba1d4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/e3/68/e36846d5fdf2348911999104af418f4e07ffa4aa" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/e3/68/e36846d5fdf2348911999104af418f4e07ffa4aa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/e6/66/e666098d317901494c0663d4e50b3623a7fec6d5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/e9/04/e9048033fe9cac5f171d55bfa65f17905b369e03" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/ee/cc/eecc54dd2c71c73a6cbab12b093b925fc44c7488" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/ee/cc/eecc54dd2c71c73a6cbab12b093b925fc44c7488" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/f2/b9/f2b93371d9e79ce1b38eb7ca5665f75779b60288" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/f8/5e/f85e2e93fa658d84d90476f48f84254bb4fe5900" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/f8/5e/f85e2e93fa658d84d90476f48f84254bb4fe5900" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/fe/df/fedffafb812d721e8e0d6280be5ad9b90a1e8514" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/classes.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/classes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/system.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/system.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/vert-boheme/layouts/default.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vert-boheme/layouts/default.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installers/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installers/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installers/src/Composer/Installers/BaseInstaller.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installers/src/Composer/Installers/BaseInstaller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installers/src/Composer/Installers/CakePHPInstaller.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installers/src/Composer/Installers/CakePHPInstaller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installers/src/Composer/Installers/DrupalInstaller.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installers/src/Composer/Installers/DrupalInstaller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installers/src/Composer/Installers/Plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installers/src/Composer/Installers/Plugin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/egulias/email-validator/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/egulias/email-validator/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/kylekatarnls/update-helper/src/UpdateHelper/ComposerPlugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/kylekatarnls/update-helper/src/UpdateHelper/ComposerPlugin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/kylekatarnls/update-helper/src/UpdateHelper/UpdateHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/kylekatarnls/update-helper/src/UpdateHelper/UpdateHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/flysystem/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/league/flysystem/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/Ftp.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/Ftp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Filesystem.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Filesystem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/FilesystemInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/FilesystemInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/MountManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/MountManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/league/flysystem/src/Util/MimeType.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/league/flysystem/src/Util/MimeType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/ErrorHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/ErrorHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/NormalizerFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/NormalizerFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/GitProcessor.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/GitProcessor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Utils.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Utils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/php-parser/grammar/php7.y" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nikic/php-parser/grammar/php7.y" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/php-parser/grammar/rebuildParsers.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nikic/php-parser/grammar/rebuildParsers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/Builder/Param.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/Builder/Param.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/BuilderHelpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/BuilderHelpers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/Comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/JsonDecoder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/JsonDecoder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/Lexer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/Lexer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/NumericLiteralSeparatorEmulator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/NumericLiteralSeparatorEmulator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/Node.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/Node.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Catch_.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Catch_.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/NodeAbstract.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/NodeAbstract.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/Parser/Php5.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/Parser/Php5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/Parser/Php7.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/Parser/Php7.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/ParserAbstract.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/ParserAbstract.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/PrettyPrinter/Standard.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/PrettyPrinter/Standard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/PrettyPrinterAbstract.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nikic/php-parser/lib/PhpParser/PrettyPrinterAbstract.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Config/ConfigServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Config/ConfigServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Config/FileLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Config/FileLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Config/Repository.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Config/Repository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Database/Attach/File.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Database/Attach/File.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Database/Behaviors/Purgeable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Database/Behaviors/Purgeable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Database/Builder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Database/Builder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Database/DataFeed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Database/DataFeed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Database/DatabaseServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Database/DatabaseServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Database/Dongle.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Database/Dongle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Database/MemoryCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Database/MemoryCache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Database/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Database/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Database/Models/Revision.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Database/Models/Revision.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Database/Relations/BelongsToMany.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Database/Relations/BelongsToMany.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Database/Traits/Sluggable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Database/Traits/Sluggable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Database/Traits/Validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Database/Traits/Validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Exception/ApplicationException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Exception/ApplicationException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Extension/ExtendableTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Extension/ExtendableTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Foundation/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Foundation/Application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Foundation/Bootstrap/LoadConfiguration.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Foundation/Bootstrap/LoadConfiguration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Foundation/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Foundation/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Halcyon/Datasource/DbDatasource.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Halcyon/Datasource/DbDatasource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Halcyon/Datasource/FileDatasource.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Halcyon/Datasource/FileDatasource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Html/BlockBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Html/BlockBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Html/HtmlBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Html/HtmlBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Parse/Syntax/FieldParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Parse/Syntax/FieldParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Scaffold/Console/controller/controller.stub" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Scaffold/Console/controller/controller.stub" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Scaffold/Console/controller/create.stub" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Scaffold/Console/controller/create.stub" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Scaffold/Console/controller/update.stub" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Scaffold/Console/controller/update.stub" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Scaffold/ScaffoldServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Scaffold/ScaffoldServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/Block.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/Block.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/Config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/DbDongle.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/DbDongle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/File.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/File.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/Flash.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/Flash.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/Form.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/Form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/Html.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/Html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/Http.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/Http.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/Ini.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/Ini.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/Markdown.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/Markdown.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/Schema.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/Schema.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/Str.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/Str.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/Twig.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/Twig.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/Url.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/Url.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/Yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Support/Facades/Yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Translation/FileLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Translation/FileLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/src/Translation/Translator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Translation/Translator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/tests/Database/Traits/ValidationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/tests/Database/Traits/ValidationTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/tests/Parse/SyntaxFieldParserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/tests/Parse/SyntaxFieldParserTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/tests/Translation/TranslatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/tests/Translation/TranslatorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/october/rain/tests/fixtures/lang/en/lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/october/rain/tests/fixtures/lang/en/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/LoggerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/LoggerInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Command/Command.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Command/Command.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/ApplicationDescription.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/ApplicationDescription.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatterStyle.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatterStyle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Helper/ProcessHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/ProcessHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Helper/QuestionHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/QuestionHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Helper/Table.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/Table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Helper/TableStyle.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/TableStyle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Input/StringInput.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/StringInput.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Output/StreamOutput.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Output/StreamOutput.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Question/ChoiceQuestion.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Question/ChoiceQuestion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Tests/Formatter/OutputFormatterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Formatter/OutputFormatterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Tests/Helper/QuestionHelperTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Helper/QuestionHelperTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Tests/Helper/TableTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Helper/TableTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Tests/Output/StreamOutputTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Output/StreamOutputTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Tests/TerminalTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/TerminalTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Handler/StringHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Handler/StringHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/FunctionExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/FunctionExtension.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/debug/ErrorHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/debug/ErrorHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/debug/Tests/DebugClassLoaderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/debug/Tests/DebugClassLoaderTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/debug/Tests/ErrorHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/debug/Tests/ErrorHandlerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/debug/Tests/Fixtures/ErrorHandlerThatUsesThePreviousOne.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/debug/Tests/Fixtures/ErrorHandlerThatUsesThePreviousOne.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/ContainerAwareEventDispatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/ContainerAwareEventDispatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventSubscriberInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventSubscriberInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/File/File.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/File/File.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/File/MimeType/MimeTypeGuesser.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/File/MimeType/MimeTypeGuesser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/File/UploadedFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/File/UploadedFile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/HeaderBag.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/HeaderBag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/ResponseHeaderBag.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/ResponseHeaderBag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/AbstractSessionHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/MemcacheSessionHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/MemcacheSessionHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/MemcachedSessionHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/MemcachedSessionHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/MongoDbSessionHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/MongoDbSessionHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/NativeFileSessionHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/NativeFileSessionHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/PdoSessionHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/PdoSessionHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/MockArraySessionStorage.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/MockArraySessionStorage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/MockFileSessionStorage.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/MockFileSessionStorage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/NativeSessionStorage.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/NativeSessionStorage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Proxy/AbstractProxy.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Proxy/AbstractProxy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Tests/ResponseHeaderBagTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Tests/ResponseHeaderBagTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Tests/Session/Storage/Handler/Fixtures/regenerate.expected" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Tests/Session/Storage/Handler/Fixtures/regenerate.expected" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Tests/Session/Storage/NativeSessionStorageTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Tests/Session/Storage/NativeSessionStorageTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Bundle/Bundle.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Bundle/Bundle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/CacheClearer/Psr6CacheClearer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/CacheClearer/Psr6CacheClearer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Controller/ArgumentResolver.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Controller/ArgumentResolver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Controller/ControllerResolver.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Controller/ControllerResolver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/ControllerMetadata/ArgumentMetadata.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/ControllerMetadata/ArgumentMetadata.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/DataCollector/DumpDataCollector.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/DataCollector/DumpDataCollector.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/DataCollector/LoggerDataCollector.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/DataCollector/LoggerDataCollector.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/DependencyInjection/ResettableServicePass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Fragment/FragmentHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Fragment/FragmentHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Fragment/HIncludeFragmentRenderer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Fragment/HIncludeFragmentRenderer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/HttpCache/AbstractSurrogate.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/HttpCache/AbstractSurrogate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/HttpCache/Store.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/HttpCache/Store.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Log/Logger.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Log/Logger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Tests/CacheClearer/Psr6CacheClearerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Tests/CacheClearer/Psr6CacheClearerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Tests/Controller/ArgumentResolverTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Tests/Controller/ArgumentResolverTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Tests/Controller/ContainerControllerResolverTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Tests/Controller/ContainerControllerResolverTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Tests/Controller/ControllerResolverTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Tests/Controller/ControllerResolverTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Tests/ControllerMetadata/ArgumentMetadataFactoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Tests/ControllerMetadata/ArgumentMetadataFactoryTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Tests/DataCollector/LoggerDataCollectorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Tests/DataCollector/LoggerDataCollectorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Tests/DependencyInjection/ResettableServicePassTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Tests/DependencyInjection/ResettableServicePassTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Tests/Fixtures/Controller/NullableController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Tests/Fixtures/Controller/NullableController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Tests/HttpCache/StoreTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Tests/HttpCache/StoreTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-iconv/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-iconv/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-iconv/Resources/charset/translit.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-iconv/Resources/charset/translit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-iconv/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-iconv/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-iconv/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-iconv/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn/Idn.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn/Idn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Resources/unidata/lowerCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Resources/unidata/lowerCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Resources/unidata/upperCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Resources/unidata/upperCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-php56/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php56/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-php56/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php56/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-php56/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php56/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-php70/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php70/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-php70/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php70/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-php70/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php70/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-php72/Php72.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php72/Php72.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-php72/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php72/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-php72/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php72/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-php72/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php72/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-util/TestListenerTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-util/TestListenerTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-util/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-util/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/process/InputStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/process/InputStream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/process/Pipes/AbstractPipes.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/process/Pipes/AbstractPipes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/process/Pipes/UnixPipes.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/process/Pipes/UnixPipes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/process/Pipes/WindowsPipes.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/process/Pipes/WindowsPipes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/process/Process.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/process/Process.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/process/ProcessUtils.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/process/ProcessUtils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/process/Tests/ProcessBuilderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/process/Tests/ProcessBuilderTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/process/Tests/ProcessTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/process/Tests/ProcessTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/routing/Loader/AnnotationClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Loader/AnnotationClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/routing/Loader/ObjectRouteLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Loader/ObjectRouteLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/routing/Loader/XmlFileLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Loader/XmlFileLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/routing/Loader/YamlFileLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Loader/YamlFileLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/routing/Matcher/Dumper/PhpMatcherDumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Matcher/Dumper/PhpMatcherDumper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/routing/RouteCompiler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/routing/RouteCompiler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/routing/Tests/RouteCollectionBuilderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Tests/RouteCollectionBuilderTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Catalogue/AbstractOperation.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Catalogue/AbstractOperation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/JsonFileDumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Dumper/JsonFileDumper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Loader/IcuDatFileLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/IcuDatFileLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Loader/IcuResFileLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/IcuResFileLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Loader/JsonFileLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/JsonFileLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Loader/XliffFileLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/XliffFileLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Loader/YamlFileLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/YamlFileLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/MessageCatalogue.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/MessageCatalogue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/JsonFileLoaderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/JsonFileLoaderTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Tests/TranslatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Tests/TranslatorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Translator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Translator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/translation/Writer/TranslationWriter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Writer/TranslationWriter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/Caster.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/Caster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ReflectionCaster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/SplCaster.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/SplCaster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/AbstractCloner.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/AbstractCloner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/Data.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/Data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/VarCloner.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/VarCloner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Caster/CasterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Caster/CasterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Caster/PdoCasterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Caster/PdoCasterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Caster/ReflectionCasterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Caster/ReflectionCasterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Caster/SplCasterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Caster/SplCasterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Dumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Dumper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Escaper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Escaper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Inline.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Inline.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Parser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/DumperTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/DumperTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/sfComments.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/sfComments.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/InlineTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/InlineTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/ParserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/ParserTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Loader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Loader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Validator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Validator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wikimedia/composer-merge-plugin/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/wikimedia/composer-merge-plugin/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ePUzTCWLGL2iu4SWLiWtNDe2Od" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/themes/vert-boheme/partials" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/vert-boheme/partials" />
+      <recent name="$PROJECT_DIR$/themes/vert-boheme/pages/portfolio" />
+      <recent name="$PROJECT_DIR$/themes/vert-boheme/layouts" />
+      <recent name="$PROJECT_DIR$/themes/vert-boheme/pages" />
+      <recent name="$PROJECT_DIR$/themes/vert-boheme/assets/sass/pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/vert-boheme/pages" />
+      <recent name="$PROJECT_DIR$/themes/vert-boheme/partials/home" />
+      <recent name="$PROJECT_DIR$/themes/vert-boheme/pages/portfolio" />
+      <recent name="$PROJECT_DIR$/themes/vert-boheme/content/home" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34d4c691-3deb-4ef2-aa63-7840a890d64b" name="Default" comment="" />
+      <created>1583871958864</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583871958864</updated>
+      <workItem from="1583871961032" duration="2293000" />
+      <workItem from="1584833676581" duration="20000" />
+      <workItem from="1585250864770" duration="3367000" />
+      <workItem from="1585578907929" duration="1152000" />
+      <workItem from="1585590203617" duration="30000" />
+      <workItem from="1585665737768" duration="4024000" />
+      <workItem from="1585678502224" duration="9731000" />
+      <workItem from="1585837882020" duration="5485000" />
+      <workItem from="1585849704716" duration="8637000" />
+      <workItem from="1585924751353" duration="11560000" />
+      <workItem from="1586193980327" duration="9890000" />
+      <workItem from="1586272417927" duration="1760000" />
+      <workItem from="1586347484105" duration="3802000" />
+      <workItem from="1586359889107" duration="1626000" />
+      <workItem from="1586374307034" duration="466000" />
+      <workItem from="1586438717875" duration="266000" />
+      <workItem from="1586455031434" duration="2405000" />
+      <workItem from="1586887839790" duration="1944000" />
+      <workItem from="1586957740169" duration="2000" />
+      <workItem from="1588161211320" duration="2173000" />
+      <workItem from="1588186944694" duration="206000" />
+      <workItem from="1588449660040" duration="39000" />
+      <workItem from="1589208699545" duration="263000" />
+      <workItem from="1590678729297" duration="1787000" />
+      <workItem from="1590683429756" duration="520000" />
+      <workItem from="1591216669515" duration="2692000" />
+      <workItem from="1591283923379" duration="10091000" />
+      <workItem from="1594222984748" duration="618000" />
+      <workItem from="1595264622233" duration="1740000" />
+      <workItem from="1595344112235" duration="85000" />
+    </task>
+    <task id="LOCAL-00001" summary="init website datas">
+      <created>1583872566240</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583872566240</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add blank theme with updated vendors">
+      <created>1583873427254</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583873427254</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Installed base plugin">
+      <created>1583874065194</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583874065194</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Publish online files">
+      <created>1586271553727</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586271553727</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Correctifs et demande clients">
+      <created>1586350548562</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586350548563</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Minified css and js">
+      <created>1586353935499</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586353935499</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Patch files">
+      <created>1586455162774</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586455162774</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update vendor, install Partner plugin">
+      <created>1590681846507</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590681846507</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add FAQ to website">
+      <created>1595266545162</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1595266545162</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init website datas" />
+    <MESSAGE value="Add blank theme with updated vendors" />
+    <MESSAGE value="Installed base plugin" />
+    <MESSAGE value="Publish online files" />
+    <MESSAGE value="Correctifs et demande clients" />
+    <MESSAGE value="Minified css and js" />
+    <MESSAGE value="Patch files" />
+    <MESSAGE value="Update vendor, install Partner plugin" />
+    <MESSAGE value="Add FAQ to website" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add FAQ to website" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="417" y="100" key="CommitChangelistDialog2" timestamp="1595266544293">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="417" y="100" key="CommitChangelistDialog2/-1920.59.1920.1200/0.0.1680.1050@0.0.1680.1050" timestamp="1595266544293" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1595266546432">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/-1920.59.1920.1200/0.0.1680.1050@0.0.1680.1050" timestamp="1595266546432" />
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1595344196621">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1920.82.1920.1177/0.0.1680.1050@0.0.1680.1050" timestamp="1595344196621" />
+    <state x="538" y="280" width="604" height="490" key="find.popup" timestamp="1594223231324">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="538" y="280" width="604" height="490" key="find.popup/-1920.59.1920.1200/0.0.1680.1050@0.0.1680.1050" timestamp="1594223231324" />
+  </component>
+</project>

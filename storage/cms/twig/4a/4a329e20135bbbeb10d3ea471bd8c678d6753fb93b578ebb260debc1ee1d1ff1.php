@@ -64,16 +64,16 @@ class __TwigTemplate_1425fbe590959153479569d86fbd4cda5aae480f57fe120d7549643a461
                 <li class=\"nav-item px-2\">
                     <a class=\"nav-link\" href=\"";
         // line 17
-        echo $this->extensions['Cms\Twig\Extension']->pageFilter("home");
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("about");
         echo "\"
-                    title=\"Accueil\">Accueil</a>
+                    title=\"À propos\">À propos</a>
                 </li>
                 <li class=\"nav-item px-2\">
                     <a class=\"nav-link\" href=\"";
         // line 21
-        echo $this->extensions['Cms\Twig\Extension']->pageFilter("about");
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("faq");
         echo "\"
-                    title=\"À propos\">À propos</a>
+                       title=\"FAQ\">FAQ</a>
                 </li>
             </ul>
             <ul class=\"nav navbar-nav mx-auto d-none d-sm-none d-md-block\">
@@ -106,16 +106,16 @@ class __TwigTemplate_1425fbe590959153479569d86fbd4cda5aae480f57fe120d7549643a461
                     <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">
                         <a class=\"dropdown-item\" href=\"";
         // line 41
-        echo $this->extensions['Cms\Twig\Extension']->pageFilter("mariages");
-        echo "\" title=\"Mariage\">Mariages</a>
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("home");
+        echo "/records/mariages\" title=\"Mariage\">Mariages</a>
                         <a class=\"dropdown-item\" href=\"";
         // line 42
-        echo $this->extensions['Cms\Twig\Extension']->pageFilter("commande-personnalisee");
-        echo "\" title=\"Collabo\">Commande personnalisée</a>
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("home");
+        echo "/records/commande-personnalisee\" title=\"Collabo\">Commande personnalisée</a>
                         <a class=\"dropdown-item\" href=\"";
         // line 43
-        echo $this->extensions['Cms\Twig\Extension']->pageFilter("collabo");
-        echo "\" title=\"Collabo\">Collabo</a>
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("home");
+        echo "/records/collabo\" title=\"Collabo\">Collabo</a>
                     </div>
                 </li>
                 <li class=\"nav-item px-2\">

@@ -1,4 +1,4 @@
-1590680427a:1:{s:12:"mariages.htm";a:14:{s:8:"fileName";s:12:"mariages.htm";s:7:"content";s:881:"title = "Mariages"
+1595344656a:1:{s:12:"mariages.htm";a:14:{s:8:"fileName";s:12:"mariages.htm";s:7:"content";s:881:"title = "Mariages"
 url = "/mariages/:page?"
 layout = "default"
 meta_title = "Mariages"
@@ -29,7 +29,7 @@ tagListPage = "portfolio/tag"
         </div>
         {% component 'myportfolio' %}
     </div>
-</section>";s:5:"mtime";i:1586360586;s:6:"markup";s:342:"<section class="py-5">
+</section>";s:5:"mtime";i:1591291374;s:6:"markup";s:342:"<section class="py-5">
     <div class="container">
         <div class="row">
             <div class="col text-center">
