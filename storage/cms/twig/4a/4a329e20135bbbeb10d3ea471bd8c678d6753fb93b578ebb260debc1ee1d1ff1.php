@@ -51,7 +51,7 @@ class __TwigTemplate_1425fbe590959153479569d86fbd4cda5aae480f57fe120d7549643a461
         // line 5
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 5), "site_motto", [], "any", false, false, false, 5), "html", null, true);
         echo "\"
-             class=\"img-fluid\" style=\"width: 150px;\">
+             class=\"img-fluid\" style=\"width: 120px;\">
     </a>
     <div class=\"hamburger hamburger--spring d-flexmr-auto d-md-none float-right\"  data-toggle=\"collapse\" data-target=\"#navbarCollapse\">
         <div class=\"hamburger-box\">
@@ -66,7 +66,7 @@ class __TwigTemplate_1425fbe590959153479569d86fbd4cda5aae480f57fe120d7549643a461
         // line 17
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("about");
         echo "\"
-                    title=\"À propos\">À propos</a>
+                       title=\"À propos\">À propos</a>
                 </li>
                 <li class=\"nav-item px-2\">
                     <a class=\"nav-link\" href=\"";
@@ -104,18 +104,9 @@ class __TwigTemplate_1425fbe590959153479569d86fbd4cda5aae480f57fe120d7549643a461
                         Créations
                     </a>
                     <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">
-                        <a class=\"dropdown-item\" href=\"";
-        // line 41
-        echo $this->extensions['Cms\Twig\Extension']->pageFilter("home");
-        echo "/records/mariages\" title=\"Mariage\">Mariages</a>
-                        <a class=\"dropdown-item\" href=\"";
-        // line 42
-        echo $this->extensions['Cms\Twig\Extension']->pageFilter("home");
-        echo "/records/commande-personnalisee\" title=\"Collabo\">Commande personnalisée</a>
-                        <a class=\"dropdown-item\" href=\"";
-        // line 43
-        echo $this->extensions['Cms\Twig\Extension']->pageFilter("home");
-        echo "/records/collabo\" title=\"Collabo\">Collabo</a>
+                        <a class=\"dropdown-item\" href=\"/portfolio/categorie/marriage\" title=\"Mariage\">Mariages</a>
+                        <a class=\"dropdown-item\" href=\"/portfolio/categorie/creations-magiques\" title=\"Collabo\">Créations Magiques</a>
+                        <a class=\"dropdown-item\" href=\"/portfolio/categorie/collabo\" title=\"Collabo\">Collabo</a>
                     </div>
                 </li>
                 <li class=\"nav-item px-2\">
@@ -139,7 +130,7 @@ class __TwigTemplate_1425fbe590959153479569d86fbd4cda5aae480f57fe120d7549643a461
 
     public function getDebugInfo()
     {
-        return array (  117 => 43,  113 => 42,  109 => 41,  95 => 30,  91 => 29,  87 => 28,  83 => 27,  74 => 21,  67 => 17,  52 => 5,  48 => 4,  44 => 3,  40 => 2,  37 => 1,);
+        return array (  95 => 30,  91 => 29,  87 => 28,  83 => 27,  74 => 21,  67 => 17,  52 => 5,  48 => 4,  44 => 3,  40 => 2,  37 => 1,);
     }
 
     public function getSourceContext()

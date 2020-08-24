@@ -1,0 +1,41 @@
+title = "Catégories"
+url = "/portfolio/categorie/:slug/:page?"
+layout = "default"
+is_hidden = 0
+
+[blogPosts blogs]
+pageNumber = "{{ :page }}"
+categoryFilter = "{{ :slug }}"
+postsPerPage = 10
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "portfolio/categories"
+postPage = "portfolio/item"
+
+[blogCategories listcategories]
+slug = "{{ :slug }}"
+displayEmpty = 0
+categoryPage = "portfolio/categories"
+==
+<?php
+function onEnd()
+{
+    // Optional - set the page title to the category name
+    if ($this->category)
+        $this->page->title = $this->category->name;
+}
+?>
+==
+<section class="py-5">
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col">
+                <h1 class="h1-responsive text-center text-secondary">
+                    <span class="underline_text">{{ category.name }}</span></h1>
+            </div>
+        </div>
+
+        {% component 'blogs' %}
+
+    </div>
+</section>

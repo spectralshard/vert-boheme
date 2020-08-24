@@ -4,8 +4,7 @@
     <div class="hero-slider owl-carousel owl-controls-1">
         {% for slide in slides %}
             <div class="hero-slider-item slider-bg-{{ slide.image_align }}"
-                 data-bg-img="{{ slide.image.thumb(1920,900,{'mode':'crop'})}}"
-                style="border-radius: 0% 0% 50% 50%;">
+                 data-bg-img="{{ slide.image.thumb(1920,900,{'mode':'crop'})}}">
                     <div class="hero-overlay-wrapper">
                         <div class="pos-tb-center hero-overlay-inner">
                             <div class="container">

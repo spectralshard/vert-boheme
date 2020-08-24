@@ -256,3 +256,10 @@ a {
 .gray-scale{
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);}
+#blog p img {
+  max-width: 100%;
+  height: auto;
+  padding-top: 40px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}

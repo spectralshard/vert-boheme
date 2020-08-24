@@ -118,4 +118,6 @@
   'Vimirlab\\Faqs\\Components\\AskQuestion' => 'plugins/vimirlab/faqs/components/AskQuestion.php',
   'Vimirlab\\Faqs\\Models\\Question' => 'plugins/vimirlab/faqs/models/Question.php',
   'backend\\Controllers\\users' => 'modules/backend/controllers/users.php',
+  'RainLab\\Blog\\FormWidgets\\BlogMarkdown' => 'plugins/rainlab/blog/formwidgets/BlogMarkdown.php',
+  'RainLab\\Blog\\FormWidgets\\MLBlogMarkdown' => 'plugins/rainlab/blog/formwidgets/MLBlogMarkdown.php',
 );

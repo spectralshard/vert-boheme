@@ -1,11 +1,11 @@
-1595344656a:1:{s:10:"navbar.htm";a:6:{s:8:"fileName";s:10:"navbar.htm";s:7:"content";s:2785:"description = "Navbar"
+1598301576a:1:{s:10:"navbar.htm";a:6:{s:8:"fileName";s:10:"navbar.htm";s:7:"content";s:2765:"description = "Navbar"
 ==
 <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
     <a class="navbar-brand mx-auto d-block d-md-none" href="{{ 'home'|page }}">
         <img src="{{ 'assets/images/vert-boheme-logo.svg'|theme }}"
              title="{{ this.theme.site_name }}"
              alt="{{ this.theme.site_motto }}"
-             class="img-fluid" style="width: 150px;">
+             class="img-fluid" style="width: 120px;">
     </a>
     <div class="hamburger hamburger--spring d-flexmr-auto d-md-none float-right"  data-toggle="collapse" data-target="#navbarCollapse">
         <div class="hamburger-box">
@@ -17,7 +17,7 @@
             <ul class="nav navbar-nav">
                 <li class="nav-item px-2">
                     <a class="nav-link" href="{{ 'about'|page }}"
-                    title="À propos">À propos</a>
+                       title="À propos">À propos</a>
                 </li>
                 <li class="nav-item px-2">
                     <a class="nav-link" href="{{ 'faq'|page }}"
@@ -40,9 +40,9 @@
                         Créations
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="{{ 'home'|page }}/records/mariages" title="Mariage">Mariages</a>
-                        <a class="dropdown-item" href="{{ 'home'|page }}/records/commande-personnalisee" title="Collabo">Commande personnalisée</a>
-                        <a class="dropdown-item" href="{{ 'home'|page }}/records/collabo" title="Collabo">Collabo</a>
+                        <a class="dropdown-item" href="/portfolio/categorie/marriage" title="Mariage">Mariages</a>
+                        <a class="dropdown-item" href="/portfolio/categorie/creations-magiques" title="Collabo">Créations Magiques</a>
+                        <a class="dropdown-item" href="/portfolio/categorie/collabo" title="Collabo">Collabo</a>
                     </div>
                 </li>
                 <li class="nav-item px-2">
@@ -51,12 +51,12 @@
             </ul>
         </div>
     </div>
-</nav>";s:5:"mtime";i:1595266421;s:6:"markup";s:2757:"<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+</nav>";s:5:"mtime";i:1598298614;s:6:"markup";s:2737:"<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
     <a class="navbar-brand mx-auto d-block d-md-none" href="{{ 'home'|page }}">
         <img src="{{ 'assets/images/vert-boheme-logo.svg'|theme }}"
              title="{{ this.theme.site_name }}"
              alt="{{ this.theme.site_motto }}"
-             class="img-fluid" style="width: 150px;">
+             class="img-fluid" style="width: 120px;">
     </a>
     <div class="hamburger hamburger--spring d-flexmr-auto d-md-none float-right"  data-toggle="collapse" data-target="#navbarCollapse">
         <div class="hamburger-box">
@@ -68,7 +68,7 @@
             <ul class="nav navbar-nav">
                 <li class="nav-item px-2">
                     <a class="nav-link" href="{{ 'about'|page }}"
-                    title="À propos">À propos</a>
+                       title="À propos">À propos</a>
                 </li>
                 <li class="nav-item px-2">
                     <a class="nav-link" href="{{ 'faq'|page }}"
@@ -91,9 +91,9 @@
                         Créations
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="{{ 'home'|page }}/records/mariages" title="Mariage">Mariages</a>
-                        <a class="dropdown-item" href="{{ 'home'|page }}/records/commande-personnalisee" title="Collabo">Commande personnalisée</a>
-                        <a class="dropdown-item" href="{{ 'home'|page }}/records/collabo" title="Collabo">Collabo</a>
+                        <a class="dropdown-item" href="/portfolio/categorie/marriage" title="Mariage">Mariages</a>
+                        <a class="dropdown-item" href="/portfolio/categorie/creations-magiques" title="Collabo">Créations Magiques</a>
+                        <a class="dropdown-item" href="/portfolio/categorie/collabo" title="Collabo">Collabo</a>
                     </div>
                 </li>
                 <li class="nav-item px-2">

@@ -53,29 +53,20 @@ class __TwigTemplate_499a8d12d93862a6bbefbfcc91f9f787c3f0b134b039a53f1d65e5e7e34
         </div>
         ";
         // line 13
-        $context['__cms_partial_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("home/lastportfolio"        , $context['__cms_partial_params']        , true        );
-        unset($context['__cms_partial_params']);
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("home-porfolio"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
         // line 14
-        echo "        <div class=\"row py-3\">
-            <div class=\"col text-center\">
-                <a href=\"";
-        // line 16
-        echo $this->extensions['Cms\Twig\Extension']->pageFilter("mes-projets");
-        echo "\"
-                   class=\"btn btn-primary text-white\">Voir tous mes projets</a>
-            </div>
-        </div>
-    </div>
+        echo "    </div>
 </section>
 <div class=\"paralax-mf bg-image py-5\">
     <div class=\"overlay-mf\"></div>
         ";
-        // line 24
+        // line 18
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("home/about"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 25
+        // line 19
         echo "</div>";
     }
 
@@ -91,7 +82,7 @@ class __TwigTemplate_499a8d12d93862a6bbefbfcc91f9f787c3f0b134b039a53f1d65e5e7e34
 
     public function getDebugInfo()
     {
-        return array (  79 => 25,  75 => 24,  64 => 16,  60 => 14,  56 => 13,  44 => 3,  40 => 2,  37 => 1,);
+        return array (  70 => 19,  66 => 18,  60 => 14,  56 => 13,  44 => 3,  40 => 2,  37 => 1,);
     }
 
     public function getSourceContext()

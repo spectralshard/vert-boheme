@@ -1,0 +1,29 @@
+1598296140a:1:{s:13:"blog/item.htm";a:12:{s:8:"fileName";s:13:"blog/item.htm";s:7:"content";s:549:"title = "Portfolio Item"
+url = "/portfolio/item/:item_slug"
+layout = "default"
+is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
+
+[item]
+itemSlug = "{{ :item_slug }}"
+==
+<?php
+function onEnd()
+{
+setlocale(LC_TIME, 'fr', 'fr_FR', 'fr_FR.ISO8859-1');
+$this->page->title = $this['item']->item->title;
+$this->page->meta_title = $this['item']->item->title;
+$this->page->meta_description = 'Portfolio d\'Amélie Cauchon Simard - fleuriste à Laval';
+$this['image_url'] = $this['item']->item->images->first()->path;
+}
+?>
+==
+{% component 'item' %}";s:5:"mtime";i:1591217779;s:6:"markup";s:22:"{% component 'item' %}";s:4:"code";s:334:"function onEnd()
+{
+setlocale(LC_TIME, 'fr', 'fr_FR', 'fr_FR.ISO8859-1');
+$this->page->title = $this['item']->item->title;
+$this->page->meta_title = $this['item']->item->title;
+$this->page->meta_description = 'Portfolio d\'Amélie Cauchon Simard - fleuriste à Laval';
+$this['image_url'] = $this['item']->item->images->first()->path;
+}";s:5:"title";s:14:"Portfolio Item";s:3:"url";s:26:"/portfolio/item/:item_slug";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:11:"robot_index";s:5:"index";s:12:"robot_follow";s:6:"follow";s:4:"item";a:1:{s:8:"itemSlug";s:16:"{{ :item_slug }}";}}}

@@ -1,4 +1,4 @@
-1595344656a:1:{s:27:"mysimplecontact/default.htm";a:5:{s:8:"fileName";s:27:"mysimplecontact/default.htm";s:7:"content";s:2489:"{{ __SELF__.settings.text_top_form|raw}}
+1598301576a:1:{s:27:"mysimplecontact/default.htm";a:5:{s:8:"fileName";s:27:"mysimplecontact/default.htm";s:7:"content";s:2489:"{{ __SELF__.settings.text_top_form|raw}}
 
 <form id="simpleContactForm" data-request="{{ __SELF__ }}::onFormSubmit">
     <div id="simple_contact_flash_message"></div>

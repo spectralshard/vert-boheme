@@ -1,0 +1,119 @@
+1598298705a:1:{s:21:"portfolio/article.htm";a:10:{s:8:"fileName";s:21:"portfolio/article.htm";s:7:"content";s:2792:"title = "Article"
+url = "/portfolio/item/:slug"
+layout = "default"
+is_hidden = 0
+
+[blogPost article]
+slug = "{{ :slug }}"
+categoryPage = "about"
+
+==
+<?php
+function onEnd()
+{
+    // Optional - set the page title to the post title
+    if ($this->post)
+    $this->page->title = $this->post->title;
+}
+?>
+==
+<section class="paralax-mf" style="background: #fff url({{ post.featured_images.0.path }});background-repeat: no-repeat;background-attachment: fixed;background-size: cover;
+-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;background-position: center center;">
+    <div class="overlay-dark-mf"></div>
+    <div class="container py-5 my-5">
+        <div class="row py-5 my-5">
+            <div class="col text-center">
+                {% for category in post.categories %}
+                <h6 class="h6-responsive text-white"><em>{{ category.name }}</em></h6>
+                {% if not loop.last %}, {% endif %}
+                {% endfor %}
+                <h1 class="h1-responsive text-white header-var2 mt-4">{{ post.title }}</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="blog">
+    <div class="container">
+        <div class="row">
+        <div class="col-12">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-8">
+                {% if post %}
+                {% component 'article' %}
+                        {% partial 'share' %}
+                {% else %}
+                <h2>Sujet introuvable</h2>
+                {% endif %}
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div id="facebook-box" class="my-3">
+                            <div class="fb-page" style="width:100%;max-width:290px" data-href="https://www.facebook.com/Vert-Boh&#xe8;me-1089002674613879/"
+                                 data-tabs="timeline" data-width="" data-height="" data-small-header="false"
+                                 data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                                <blockquote cite="https://www.facebook.com/Vert-Boh&#xe8;me-1089002674613879/"
+                                            class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Vert-Boh&#xe8;me-1089002674613879/">
+                                    Vert Bohème</a></blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=297141914583105&autoLogAppEvents=1"></script>";s:5:"mtime";i:1598298079;s:6:"markup";s:2489:"<section class="paralax-mf" style="background: #fff url({{ post.featured_images.0.path }});background-repeat: no-repeat;background-attachment: fixed;background-size: cover;
+-moz-background-size: cover;-webkit-background-size: cover;-o-background-size: cover;background-position: center center;">
+    <div class="overlay-dark-mf"></div>
+    <div class="container py-5 my-5">
+        <div class="row py-5 my-5">
+            <div class="col text-center">
+                {% for category in post.categories %}
+                <h6 class="h6-responsive text-white"><em>{{ category.name }}</em></h6>
+                {% if not loop.last %}, {% endif %}
+                {% endfor %}
+                <h1 class="h1-responsive text-white header-var2 mt-4">{{ post.title }}</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="blog">
+    <div class="container">
+        <div class="row">
+        <div class="col-12">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-8">
+                {% if post %}
+                {% component 'article' %}
+                        {% partial 'share' %}
+                {% else %}
+                <h2>Sujet introuvable</h2>
+                {% endif %}
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div id="facebook-box" class="my-3">
+                            <div class="fb-page" style="width:100%;max-width:290px" data-href="https://www.facebook.com/Vert-Boh&#xe8;me-1089002674613879/"
+                                 data-tabs="timeline" data-width="" data-height="" data-small-header="false"
+                                 data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                                <blockquote cite="https://www.facebook.com/Vert-Boh&#xe8;me-1089002674613879/"
+                                            class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Vert-Boh&#xe8;me-1089002674613879/">
+                                    Vert Bohème</a></blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=297141914583105&autoLogAppEvents=1"></script>";s:4:"code";s:141:"function onEnd()
+{
+    // Optional - set the page title to the post title
+    if ($this->post)
+    $this->page->title = $this->post->title;
+}";s:5:"title";s:7:"Article";s:3:"url";s:21:"/portfolio/item/:slug";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:16:"blogPost article";a:2:{s:4:"slug";s:11:"{{ :slug }}";s:12:"categoryPage";s:5:"about";}}}

@@ -1,0 +1,15 @@
+1598299389a:1:{s:9:"share.htm";a:5:{s:8:"fileName";s:9:"share.htm";s:7:"content";s:362:"<div class="row">
+    <div class="col">
+        <div style="display: block">
+        <div class="fb-share-button" data-layout="button_count" data-size="small" data-mobile-iframe="true">
+            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"></a></div>
+        </div>
+    </div>
+</div>";s:5:"mtime";i:1598296442;s:6:"markup";s:362:"<div class="row">
+    <div class="col">
+        <div style="display: block">
+        <div class="fb-share-button" data-layout="button_count" data-size="small" data-mobile-iframe="true">
+            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"></a></div>
+        </div>
+    </div>
+</div>";s:4:"code";N;}}

@@ -1,0 +1,43 @@
+1598301576a:1:{s:25:"home-porfolio/default.htm";a:5:{s:8:"fileName";s:25:"home-porfolio/default.htm";s:7:"content";s:899:"{% set posts = __SELF__.posts %}
+    <div class="row d-flex justify-content-center">
+        {% for post in posts %}
+        <div class="grid col-sm-12 col-md-6">
+            <figure class="effect-zoe">
+                {% if post.featured_images.count %}
+                <a href="{{ post.url }}">
+                    <img class="img-fluid"
+                         data-src="{{ post.featured_images.0.filename }}"
+                         src="{{ post.featured_images.0.path }}"
+                         alt="{{ post.featured_images.0.description }}">
+                </a>
+                {% endif %}
+                <figcaption>
+                    <h4 class="h4-responsive"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                </figcaption>
+            </figure>
+        </div>
+        {% else %}
+        <div class="no-data">Aucun sujet trouvé</div>
+        {% endfor %}
+    </div>";s:5:"mtime";i:1598295595;s:6:"markup";s:899:"{% set posts = __SELF__.posts %}
+    <div class="row d-flex justify-content-center">
+        {% for post in posts %}
+        <div class="grid col-sm-12 col-md-6">
+            <figure class="effect-zoe">
+                {% if post.featured_images.count %}
+                <a href="{{ post.url }}">
+                    <img class="img-fluid"
+                         data-src="{{ post.featured_images.0.filename }}"
+                         src="{{ post.featured_images.0.path }}"
+                         alt="{{ post.featured_images.0.description }}">
+                </a>
+                {% endif %}
+                <figcaption>
+                    <h4 class="h4-responsive"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                </figcaption>
+            </figure>
+        </div>
+        {% else %}
+        <div class="no-data">Aucun sujet trouvé</div>
+        {% endfor %}
+    </div>";s:4:"code";N;}}

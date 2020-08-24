@@ -1,0 +1,58 @@
+1598301576a:1:{s:24:"portfolio/categories.htm";a:11:{s:8:"fileName";s:24:"portfolio/categories.htm";s:7:"content";s:956:"title = "Catégories"
+url = "/portfolio/categorie/:slug/:page?"
+layout = "default"
+is_hidden = 0
+
+[blogPosts blogs]
+pageNumber = "{{ :page }}"
+categoryFilter = "{{ :slug }}"
+postsPerPage = 10
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "portfolio/categories"
+postPage = "portfolio/item"
+
+[blogCategories listcategories]
+slug = "{{ :slug }}"
+displayEmpty = 0
+categoryPage = "portfolio/categories"
+==
+<?php
+function onEnd()
+{
+    // Optional - set the page title to the category name
+    if ($this->category)
+        $this->page->title = $this->category->name;
+}
+?>
+==
+<section class="py-5">
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col">
+                <h1 class="h1-responsive text-center text-secondary">
+                    <span class="underline_text">{{ category.name }}</span></h1>
+            </div>
+        </div>
+
+        {% component 'blogs' %}
+
+    </div>
+</section>";s:5:"mtime";i:1598299102;s:6:"markup";s:352:"<section class="py-5">
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col">
+                <h1 class="h1-responsive text-center text-secondary">
+                    <span class="underline_text">{{ category.name }}</span></h1>
+            </div>
+        </div>
+
+        {% component 'blogs' %}
+
+    </div>
+</section>";s:4:"code";s:155:"function onEnd()
+{
+    // Optional - set the page title to the category name
+    if ($this->category)
+        $this->page->title = $this->category->name;
+}";s:5:"title";s:11:"Catégories";s:3:"url";s:33:"/portfolio/categorie/:slug/:page?";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:15:"blogPosts blogs";a:7:{s:10:"pageNumber";s:11:"{{ :page }}";s:14:"categoryFilter";s:11:"{{ :slug }}";s:12:"postsPerPage";s:2:"10";s:14:"noPostsMessage";s:14:"No posts found";s:9:"sortOrder";s:17:"published_at desc";s:12:"categoryPage";s:20:"portfolio/categories";s:8:"postPage";s:14:"portfolio/item";}s:29:"blogCategories listcategories";a:3:{s:4:"slug";s:11:"{{ :slug }}";s:12:"displayEmpty";s:1:"0";s:12:"categoryPage";s:20:"portfolio/categories";}}}

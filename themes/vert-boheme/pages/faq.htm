@@ -4,10 +4,18 @@ layout = "default"
 meta_title = "FAQ"
 is_hidden = 0
 
+[blogPosts home-porfolio]
+pageNumber = "{{ :page }}"
+postsPerPage = 2
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "portfolio/categories"
+postPage = "portfolio/item"
+
 [faqsall faqsall]
 ==
 <section class="py-5">
-    <div class="container">
+    <div class="container pt-5">
         <div class="row">
             <div class="col-sm-12 pb-3">
                 <h1 class="h1-responsive"><span class="underline_text">Questions et réponses à propos de mes produits</span></h1>
@@ -30,12 +38,6 @@ is_hidden = 0
                 </h2>
             </div>
         </div>
-        {% partial 'home/lastportfolio' %}
-        <div class="row py-3">
-            <div class="col text-center">
-                <a href="{{ 'mes-projets'|page }}"
-                   class="btn btn-secondary text-white">Voir tous mes projets</a>
-            </div>
-        </div>
+        {% component 'home-porfolio' %}
     </div>
 </div>
